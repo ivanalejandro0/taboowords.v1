@@ -1,0 +1,16 @@
+REGLAS DEL JUEGO
+NÚMERO DE JUGADORES: De 6 a 30.
+EDAD DE LOS JUGADORES: A partir de los 12 años.
+DURACIÓN: El que se establesca, pero es mejor el que llegua a un numero determinado de tarjetas.
+META DEL JUEGO: El equipo que adivine más palabras en un tiempo preestablecido, gana más tarjetas. El que tenga más tarjetas al final del juego, será el ganador.
+MATERIAL REQUERIDO: tarjetas, cada una con una palabra por definir y cuatro palabras prohibidas.
+
+REGLAS:
+1. Organizar al total de jugadores en dos equipos. En grupos mayores a 15 , puede ser recomendable hacer tres o más equipos.
+2. Pedir que cada equipo elija un representante.
+3. El representante del primer equipo pasa al frente, con 5 tarjetas. Un miembro del segundo equipo se para junto a él para:
+• Vigilar que no use ninguna de las palabras prohibidas al definir la palabra que le tocó.
+• Medir el tiempo. Cada equipo tendrá un minuto para descubrir la(s) palabra(s) que su representante defina.
+4. El representante del primer equipo tiene un minuto para parafrasear la palabra que aparece en mayúsculas en la parte superior de cada tarjeta, pero NO podrá usar ninguna de las palabras incluidas en la misma tarjeta porque son tabú.
+5. El equipo tratará de adivinar la palabra. Si lo logra, obtendrá esa tarjeta y el representante parafraseará la tarjeta siguiente. Continuar así hasta que termine su tiempo.
+6. Al terminar el tiempo de un equipo continuará el otro siguiendo las mismas reglas.

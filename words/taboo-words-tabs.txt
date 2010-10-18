@@ -1,0 +1,975 @@
+NAVIDAD	Diciembre	Papa Noel	Villancicos	Arbolito	Nacimiento
+MOSQUITO	Picadura	Rascarse	Raid	Espiral	Insecto
+CASTIGO	Diciembre	Papa Noel	Villancicos	Arbolito	Nacimiento
+CORPIÑO	Ropa	Sostén	Pechos	Mujer	Bombacha
+RISA	Ridículo	Cómico	Carcajada	Chiste	Broma
+PASAPORTE	Documento	Extranjero	Viajar	Aduana	Visa
+LAGRIMA	Ojos	Llorar	Agua	Gotas	Triste
+CONVENTO	Iglesia	Habito	Religión	Monja	Cura
+PIMPOLLO	Capullo	Botón	Flor	Rosa	Cerrado
+KREMLIN	Moscu	URSs	Palacio	Rusia	Plaza Roja
+HIPNOTIZAR	Dormir	Mirada	Mago	Despertar	Sueño
+ROSA	Espinas	Flor	Pantera	Color	Rojo
+POLVO	Limpio	Sucio	Tierra	Plumero	Muebles
+MANEJAR	Auto	Volante	Coche	Conductor	Vehiculo
+FECHA	Mes	Año	Almanaque	Día	Calendario
+ALBAÑIL	Construcción	Ladrillo	Casa	Obra	Cemento
+CIRCULO	Anillo	Redondo	Compás	Línea	Curva
+IZQUIERDA	Lado	Derecha	Zurdo	Comunista	Dirección
+CARREFOUR	Supermercado	Caja	Carrito	Comprar	Góndolas
+CONTRATO	Papel	Firmar	Acuerdo	Alquiler	Escritorio
+ESTACION	Terminal	Tren	Parada	Anden	Bonetería
+OFICIAL DE POLICIA	Esposas	Agente	Patrullero	Comisaría	Arrestar
+LEVADURA	Masa	Pan	Harina	Cocinar	Royal
+BASQUET	Deporte	Pelota	Equipo	Aro	Cancha
+OSTRA	Perla	Mar	Bivalvo	Marisco	Comer
+CUADRO	Museo	Pintor	Óleo	Caballete	Tela
+NOCHE	Día	Oscuridad	Luna	Estrellas	Sol
+CHINA	Oriental	Amarillo	País	Asia	Muralla
+CALEFACCION	Invierno	Estufa	Aire	Caldera	Frío
+LENTES DE CONTACTO	Duras	Blandas	Anteojos	Colores	Vista
+DINERO	Comprar	Plata	Moneda	Billetes	Guita
+PAÑUELO	Nariz	Sonarse	Tela	Mocos	Resfrió
+MANZANA	Comer	Sidra	Verde	Rojo	Fruta
+CABALLO	Estribos	Ensillar	Jinete	Montar	Carrera
+SURF	Playa	Tabla	Mar	Olas	Equilibrio
+PIRAMIDE	Tumba	Momia	Egipto	Keops	Faraón
+MATE	Yerba	Bombilla	Agua	Amargo	Azúcar
+BANCO	Cheque	Cuenta	Cajero	Dinero	Cambio
+SUGUS	Caramelo	Masticar	Quiosco	Marca	Golosina
+DULCE	Chocolate	Caramelo	Sabor	Galletitas	Bombón
+REPASADOR	Trapo	Secar	Platos	Cocina	Tela
+HUELLA	Digital	Rastro	Pisada	Señal	Mano
+INODORO	Caca	Pis	Baño	Agua	Sentarse
+ANIMAL	Vivo	Salvaje	Domestico	Veterinario	Irracional
+COCKTAIL	Alcohol	Trago	Copa	Mezcla	Bebida
+MONSTRUO	Miedo	Criatura	Asustar	Horrible	Feo
+SUBMARINO	Barco	Periscopio	Torpedo	Inmersión	Guerra
+CAMISA DE FUERZA	Mangas	Atar	Manicomio	Loco	Demente
+SILLON	Respaldo	Cómodo	Asiento	Sentarse	Sofá
+FLECHA	Arco	Punta	Lanzar	Ballesta	Indios
+VENTANA	Casa	Pared	Vidrio	Mirar	Luz
+MASTIL	Bandera	Palo	Poste	Izar	Velas
+BOSQUE	Plantas	Árboles	Animales	Madera	Selva
+HORMIGA	Insecto	Comer	Jardín	Fila	Plantas
+MARATON	Carrera	Competencia	Kilómetros	Olimpiadas	Grecia
+ELECTRICIDAD	Luz	Corriente	Energía	Enchufe	Lámpara
+VALIENTE	Cobarde	Miedo	Defender	Héroe	Salvar
+DOLAR	Verde	Dinero	Moneda	Estados Unidos	Plata
+WHISKY	Licor	Alcohol	Tomar	Caro	Bebida
+NEON	Luces	Negocios	Tubos	Publicidad	Gas
+UÑA	Manicura	Limar	Dedo	Esmalte	Pintar
+BRUJA	Escoba	Fea	Cuentos	Mala	Magia
+TAXI	Reloj	Ficha	Coche	Alquiler	Amarillo
+GLOBO	Aire	Soplar	Inflar	Cumpleaños	Boca
+LORO	Pájaro	Hablar	Plumas	Verde	Pirata
+INDIO	Plumas	Tribu	Carpa	Flecha	Pintura
+DEPRESION	Bajón	Animo	Contento	Tristeza	Mal
+PATA	Pierna	Animal	Garra	Palo	Pisar
+RIO	Mar	Pescar	Navegar	Corriente	Agua
+COLMILLO	Mordedura	Diente	Marfil	Vampiro	Elefante
+FAMA	Reputación	Artistas	Celebridad	Popular	Conocido
+NUDO	Corbata	Marinero	Atar	Lazo	Moño
+DIARIO	Periódico	Matutino	Vespertino	Quiosco	Canillita
+MAGO	Sombrero	Paloma	Truco	Desaparecer	Varita
+PROFESOR	Enseñar	Universidad	Colegio	Facultad	Secundaria
+DENTADURA POSTIZA	Boca	Corega	Puente	Artificial	Muelas
+MODISTA	Coser	Vestido	Mujer	Sastre	Probar
+PUERTA	Entrada	Cerradura	Llave	Timbre	Casa
+ABANICO	España	Aire	Mujer	Plegable	Calor
+MINUTO	Agujas	Reloj	Tiempo	Segundos	Horas
+INSULTO	Ofensa	Palabras	Gritar	Enojado	Decir
+ANCLA	Hierro	Clavar	Puntas	Agua	Barco
+AGUJA	Pajar	Coser	Alfiler	Costura	Hilo
+NATURALEZA	Aire	Verde	Animales	Montaña	Árboles
+ESCARAPELA	Azul	Blanca	Argentina	Solapa	Redonda
+AGUJERO	Pozo	Hueco	Orificio	Hoyo	Colador
+CENICERO	Cigarrillo	Colilla	Fumar	Fósforo	Habano
+GRASA	Aceite	Lubricante	Gordo	Freír	Colesterol
+SALMON	Río	Rosado	Trucha	Ahumado	Pez
+POLO	Pelota	Juego	Deporte	Caballo	Jinete
+TERRAZA	Arriba	Plantas	Sol	Techo	Ropa
+PARARRAYOS	Tormenta	Relámpago	Eléctrico	Protección	Techo
+CHUPETE	Boca	Bebe	Niño	Mamadera	Teta
+EDIFICIO	Departamento	Pisos	Ascensor	Casa	Portero
+LLAMAR	Nombre	Citar	Che	Venir	Teléfono
+DERECHA	Izquierda	Mano	Comer	Escribir	Lado
+ARMADURA	Metal	Usar	Traje	Caballero	Protección
+MERCEDES SOSA	Negra	Cantar	Mujer	Folclore	Tucumán
+GOLONDRINAS	Pájaro	Primavera	Negro	Volar	Volver
+ESCUDO	Protección	Defensa	Metal	Antiguo	Brazo
+MOULINEX	Multiprocesadora	Marca	Electrodomésticos	Rallar	Moler
+ASTRONAUTA	Luna	Nasa	Cohete	Espacio	Satélite
+RATONERA	Trampa	Queso	Cebo	Roedor	Atrapar
+JAULA	Pájaro	Barrotes	Zoológico	Animal	Escaparse
+MES	Doce	Días	Semanas	Año	Calendario
+ALIEN	Sigourney Weaver	Octavo Pasajero	Película	Criatura	Espacio
+MANICURA	Dedos	Cuidar	Uñas	Peluquería	Mujer
+ACEITE	Condimento	Vinagre	Ensalada	Oliva	Freír
+PASTO	Verde	Césped	Jardín	Hierba	Cortar
+RUTA	Camino	Autos	Peaje	Autopista	Carretera
+PARED	Casa	Separar	Muro	Medianera	Ladrillos
+ACTIVISTA	Político	Militante	Derecho	Estudiante	Protesta
+MONO	Chimpancé	Chita	Gorila	Tarzán	Simio
+ASFALTO	Negro	Pavimento	Camino	Brea	Alquitrán
+AZUCAR	Blanco	Endulzar	Edulcorante	Café	Caramelo
+CALAVERA	Cráneo	Pirata	Hamlet	Huesos	Cabeza
+CARACOL	Cuernos	Espiral	Arrastrarse	Lento	Jardín
+LASAGNA	Pasta	Capas	Comida	Italiano	Horno
+PIANO	Instrumento	Música	Teclado	Tocar	Manos
+OFICINA	Negocio	Administración	Trabajo	Secretaria	Escritorio
+FELICIDAD	Bienestar	Alegría	Dichoso	Suerte	Desgracia
+GARGANTA	Cuello	Faringe	Tragar	Amígdalas	Laringe
+CIRUGIA ESTETICA	Operación	Plástica	Lifting	Arruga	Siliconas
+GAUCHO	Argentino	Pampa	Martín Fierro	Rancho	Campo
+LABERINTO	Perderse	Camino	Entrada	Salir	Lugar
+SEMILLA	Plantar	Tierra	Flor	Crecer	Regar
+EMBAJADOR	País	Diplomático	Extranjero	Político	Representar
+TROMPETA	Instrumento	Música	Tocar	Louis Amstrong	Jazz
+ARAÑA	Insecto	Tarántula	Tejes	Tela	Ratas
+MARINERO	Soldado	Blanco	Puerto	Barco	Popeye
+DENTISTA	Boca	Caries	Torno	Anestesia	Muelas
+COLMENA	Abeja	Avispa	Aguijón	Miel	Panal
+CEPILLO DE DIENTES	Cerdas	Boca	Pasta	Fluor	Limpiar
+SONAMBILO	Dormir	Caminar	Sueño	Levantarse	Noche
+PIRELLI	Neumáticos	Ruedas	Llanta	Auto	Marca
+ERROR	Equivocarse	Fallar	Mal	Lapsus	Acierto
+CURITA	Corte	Sangre	Venda	Protección	Lastimadura
+SOBRE	Carta	Remitente	Correo	Buzón	Estampilla
+POEMA	Palabra	Escribir	Rima	Verso	Declamar
+HOGAS A LEÑA	Chimenea	Humo	Fuego	Madera	Quemar
+BIGOTES	Mostachos	Boca	Pelo	Barba	Labio
+ARCO IRIS	Lluvia	Cielo	Colores	Curva	Sol
+ZAPATILLAS	Calzado	Caminar	Deportes	Suela	Medias
+ESTADIO	Espectador	Cancha	Deportivo	Futbol	Olímpico
+AMBULANCIA	Camilla	Hospital	Vehiculo	Herido	Sirena
+PELUCA	Postizos	Cabeza	Cabellera	Pelado	Artificial
+REVOLUCION	De mayo	Francesa	Movimiento	Sublevación	Levantamiento
+CAMA	Dormir	Colchón	Almohada	Acostarse	Sueño
+CAÑO	Tubo	Agua	Electricidad	Redondo	Hueco
+PINGÜINO	Antártida	Animal	Blanco	Negro	Pájaro
+VIUDA	Marido	Negro	Muerte	Mujer	Duelo
+LAVE-RAP	Negocio	Ropa	Maquina	Automático	Jabón
+COPA	Beber	Agua	Cristal	Vidrio	Vaso
+ADOLESCENTE	Adulto	Chico	Joven	Muchacho	Pubertad
+CARA	Frente	Boca	Ojos	Cabeza	Nariz
+ANTEOJOS PARA SOL	Lentes	Ojos	Oscuros	Luz	Rayban
+MOTOR	Mover	Coche	Capot	Maquina	Mecánica
+SYLVAPEN	Colores	Marcadores	Birome	Escribir	2 Km.
+VACACIONES	Trabajo	Descanso	Verano	Viaje	Playa
+PARIS	Torre Eiffel	Francois Mitterrand	Francia	Europa	Capital
+CAMISA	Corbata	Pantalón	Manga	Botón	Saco
+ACEITUNA	Negra	Carozo	Olivo	Clemente	Verde
+TITERE	Marioneta	Hilos	Madera	Muñecos	Mano
+TELARAÑA	Polvo	Hilo	Insecto	Plumero	Trampa
+MARTILLO	Clavo	Maza	Herramienta	Golpear	Dedo
+ADIDAS	Tres tiras	Indumentaria	Deportes	Zapatillas	Ropa
+PIC NIC	Cesta	Comer	Pasto	Excursión	Domingo
+VAMPIRO	Murciélago	Sangre	Chupar	Drácula	Cuello
+PRESERVATIVO	Profiláctico	Forro	Latex	Sida	Pene
+POSAR	Cuadro	Pintor	Desnudo	Modelo	Postura
+PADDLE	Paleta	Tenis	Red	Deporte	Paredes
+FAX	Copia	Mensaje	Enviar	Rápido	Teléfono
+TOALLA	Manos	Mojado	Secarse	Lavatorio	Baño
+BELLEZA	Concurso	Hermosa	Linda	Mujer	Salón
+AXE	Axilas	Perfume	Desodorante	Marca	Aerosol
+CHOQUE	Accidente	Coche	Colisión	Golpe	Conducir
+BARBA	Afeitar	Bigote	Hombre	Tijeras	Pelo
+LIBRO	Leer	Biblioteca	Hojas	Encuadernado	Pagina
+LLAVE	Puerta	Candado	Coche	Cerradura	Abrir
+CASINO	Apostar	Black Jack	Ruleta	Croupier	Tragamonedas
+ALPINISTA	Escalar	Trepar	Montaña	Cuerdas	Himalaya
+AGUILA	Ave	Pájaro	Rapiña	Volar	Alas
+DIEGO MARADONA	Deportista	Numero 10	Boca	Selección	Futbol
+KOH-O-NOOR	Lavarropas	Secarropas	Centrifugar	Electrodomésticos	Marca
+BASURA	Manliba	Bolsa	Recolector	Tacho	Residuos
+ESPONJA	Bañarse	Jabón	Frotar	Espuma	Ducha
+ANTIGUO	Edad	Tiempo	Años	Historia	Viejo
+TIMIDO	Vergüenza	Rubor	Callado	Temeroso	Miedo
+CEPO	Parquímetro	Estacionar	Multa	Auto	Grúa
+CANGURO	Animal	Australia	Bolsa	Salto	Mamífero
+AVISO CLASIFICADO	Diario	Clarín	Publicidad	Vender	Comprar
+REUNION	Trabajo	Grupo	Gente	Juntarse	Fiesta
+APAGAR	Prender	Encender	Interruptor	Sofocar	Luz
+TEJA	Casa	Rojo	Lluvia	Techo	Cubrir
+TIERRA	Hemisferios	Planta	Mundo	Planeta	Maceta
+JABALINA	Lanza	Olimpiadas	Atletismo	Tirar	Disciplina
+CURANDERO	Doctor	Tribu	Enfermo	Remedio	Medico
+SOÑAR	Noche	Dormir	Despierto	Cama	Pesadilla
+RESCATE	Dinero	Pago	Rehén	Secuestrar	Instrucciones
+BORRACHO	Mamado	Ebrio	Tomar	Vino	Alcohólico
+JIRAFA	Alto	Animal	Cuello	Manchas	Largo
+BUHO	Árbol	Grito	Pájaro	Sabio	Noche
+FIDEL CASTRO	Barba	Isla	Cuba	Presidente	Caribe
+DIENTE	Boca	Caries	Muela	Torno	Encías
+TESTICULOS	Genitales	Pene	Hombre	Semen	Bolas
+BATMAN	Gatubela	Ciudad Gotica	Robin	Superhéroe	Guason
+CALVO	Cabeza	Pelado	Pelo	Cabello	Postizo
+FALCON	Auto	Ford	4 ruedas	Patrullero	Policía
+PLANO	Construir	Guía	Edificio	Arquitecto	Mapa
+CARPETA	Cuaderno	Hojas	Tapas	Forro	Colegio
+CARTAS DE TAROT	Bola de cristal	Adivinar	Futuro	Gitano	Naipes
+ENANO	Bajo	Alto	Petiso	Circo	Blancanieves
+GATO	Animal	Felino	Arañar	Maullido	Ronroneo
+SAUNA	Gimnasio	Calor	Transpirar	Vapor	Adelgazar
+VAGABUNDO	Mendigo	Linyera	Ciruja	Pobre	Casa
+HOMOSEXUAL	Lesbiana	Mariposón	Travesti	Trolo	Maricón
+INVITADO	Boda	Cumpleaños	Fiesta	Amigos	Convidar
+DELFIN	Ballena	Mar	Animal	Amaestrado	Mamífero
+ESCOBA	Barrer	Limpiar	Bruja	Piso	Paja
+CORAZON	Rojo	Amor	Músculo	Sangre	Latir
+INFANTIL	Bebe	Juguete	Niño	Pequeño	Nene
+POPEYE	Olivia	Brutus	Dibujo Animado	Espinacas	Marinero
+TOILETTE	Baño	Recepción	Inodoro	Pintarse	Lavarse
+VACUNAR	Obligatorio	Enfermedad	Sabin	Triple	Prevenir
+PILDORA	Remedio	Medicina	Enfermo	Pastilla	Tragar
+VERGÜENZA	Colorado	Papelón	Bochorno	Tímido	Rubor
+MIEL	Abejas	Dulce	Panal	Colmena	Insecto
+STRESS	Tensión	Trabajo	Nervios	Presión	Ansiedad
+VENTILADOR	Aire	Techo	Verano	Aspas	Girar
+SOMBRA	Luz	Árbol	Noche	Obscuridad	Sol
+VINO	Alcohol	Bebida	Uvas	Tinto	Blanco
+LEVANTARSE	Pararse	Sentarse	Incorporarse	Acostarse	Elevarse
+VENDA	Torcedura	Gasa	Medico	Farmacia	Herida
+GABRIELA SABATINI	Tenis	Graf	Seles	Raqueta	Argentina
+LAPICERA	Birome	Escribir	Papel	Tinta	Cartucho
+RAUL ALFONSIN	UCr	Radical	Político	Chascomus	ExPresidente
+TOMATE	Rojo	Verdura	Perita	Salsa	Pizza
+LAPIZ	Escribir	Mina	Goma	Sacar punta	Borrar
+AÑO NUEVO	Enero	Fiesta	Primero	Empezar	Diciembre
+TITULO	Libro	Nombre	Palabra	Película	Descripción
+CANARIO	Pájaro	Jaula	Canto	Amarillo	Tweety
+MOJADO	Paraguas	Lluvia	Agua	Seco	Toalla
+ESCALERA	Peldaño	Ascensor	Bajar	Subir	Baranda
+GRANJA	Caballo	Estancia	Vaca	Campo	Ganado
+PICTIONARY	Juego	Dibujar	Lápiz	Marca	Tablero
+CARGA	Bultos	Pesada	Camión	Barco	Tren
+MICRO ESCOLAR	Colegio	Niño	Vehiculo	Chicos	Naranja
+CINE	Película	Pantalla	Filmar	Proyectar	Cámara
+ESPOSAS	Arresto	Policía	Mano	Preso	Muñeca
+ANTIFAZ	Ojos	Tapar	Mascara	Carnaval	Cara
+GRUA	Levantar	Auto	Avería	Estacionamiento	Auxilio
+NUBE	Cielo	Despejado	Lluvia	Sol	Trueno
+MONJA	Habito	Religión	Hermana	Convento	Novicia
+DIA	Noche	Sol	Horas	Semana	Despierto
+INCENDIO	Quemar	Apagar	Fuego	Llama	Bomberos
+ARQUITECTO	Obra	Planos	Dibujo	Diseño	Construcción
+MUSEO	Arte	Edificio	Pinturas	Exhibición	Colecciones
+CUCHILLO	Cuchara	Tenedor	Cortar	Cubierto	Afilado
+PONCHO	Gaucho	Cubrir	Ropa	Cabeza	Capa
+CALENDARIO	Mes	Almanaque	Fecha	Días	Año
+PESCADOR	Pez	Caña	Anzuelo	Carnada	Lombriz
+GAS	Estufa	Cocinar	Envasado	Calefón	Termotanque
+POCHOCLO	Maíz	Dulce	Salado	Cine	Blanco
+MUÑECO	Niñas	Bebote	Juguete	Mama	Regalo
+CARNE	Vaca	Asado	Comer	Milanesa	Hamburguesa
+IDIOMA	Lengua	País	Diccionario	Traducir	Estudiar
+HUMOR	Alegría	Animo	Broma	Risa	Comedia
+TELEFONO PUBLICO	Llamar	Calle	Hablar	Cospeles	Fichas
+RECREO	Patio	Escuela	Jugar	Campana	Tiempo
+GOL	Pelota	Hacer	Puntuación	Futbol	Arco
+HAMSTER	Animal	Jaula	Mascota	Rata	Roedor
+FOTOGRAFIA	Revelar	Rollo	Film	Álbum	Cámara
+RIMMEL	Ojos	Maquillaje	Cepillo	Cosmético	Pestaña
+GRANERO	Trigo	Edificio	Silo	Cereales	Campo
+PELOTA	Balón	Redonda	Futbol	Bola	Patear
+DIABLO	Lucifer	Ángel	Demonio	Infierno	Satanás
+NIEVE	Blanca	Agua	Invierno	Esquiar	Frío
+ESTRIBOS	Montura	Ensillar	Pies	Espuelas	Caballo
+EDAD	Años	Vida	Nacer	Fecha	Tiempo
+BATERIA	Platillos	Instrumento	Música	Ritmo	Bombo
+CIRUJANO	Hospital	Anestesia	Operación	Doctor	Escalpelo
+GENIOL	Aspirina	Dolor	Farmacia	Remedio	Marca
+FIRMA	Nombre	Apellido	Rubrica	Autógrafo	Contrato
+ALMOHADA	Cama	Dormir	Pluma	Acostarse	Cabeza
+PAYASO	Circo	Nariz	Zapatones	Bofetada	Reír
+OXIGENO	Respirar	Aire	Atmosfera	Hidrogeno	Gas
+MEDIALUNA	Panadería	Factura	Comer	Grasa	Croissant
+INOCENTE	Absuelto	Niño	Culpable	Ingenuo	Veredicto
+OBELISCO	Monumento	Buenos Aires	Corrientes	Símbolo	República
+CONGRESO	Cámara	Senado	Gobierno	Diputados	Poder Legislativo
+AGUIJON	Clavar	Abeja	Veneno	Mosquito	Avispa
+VOTO	Sufragio	Presidente	Cuarto Oscuro	Urna	Elecciones
+XUXA	Brasil	TeleVision	Niños	Paquitas	Pele
+AIWA	Grabador	Música	Minicomponente	Marca	Parlantes
+LANZAR	Pelota	Jabalina	Tirar	Echar	Arrojar
+DUCHA	Baño	Canilla	Toallon	Agua	Cuerpo
+HOGUERA	Madera	Quemar	Leña	Fuego	Campamento
+SOFTWARE	Computadora	Programa	Disquette	Lenguaje	Hardware
+ESCARBADIENTES	Madera	Palito	Aperitivo	Boca	Hilo dental
+UVA	Vid	Fruta	Parra	Racimo	Vino
+CHATARRA	Autos	Coche	Hierro	Basura	Metal
+ADUANA	Control	Frontera	Pasaporte	Declarar	Contrabando
+INTENDENTE	Funcionario	Ciudad	Municipalidad	Grosso	Cargo
+PORTERO	Mantenimiento	Encargado	Edificio	Basura	Limpio
+BOTE DE GOMA	Pileta	Remos	Agua	Navegar	Inflar
+VIDRIERA	Negocio	Mirar	Calle	Galería	Cristal
+TIESO	Inmóvil	Cadáver	Rígido	Tabla	Duro
+AFUERA	Exterior	Salida	Ir	Adentro	Echar
+SAMURAI	Soldado	Espada	Japón	Antiguo	Hara-Kiri
+TETERA	Infusión	Calentar	Pava	Agua	Preparar
+ESTORNUDO	Tos	Resfrió	Nariz	Pañuelo	Pimienta
+NARIZ	Cara	Tabique	Oler	Fosas	Anteojos
+DIAMANTE	Duro	Kilates	Joyas	Brillante	Piedra
+HOMBRO	Cuerpo	Espalda	Brazo	Parte	Cuello
+CABARET	Desnudarse	Streap-Tease	Bar	Música	Baile
+COCODRILO	Dientes	Río	Piel	Animal	Caimán
+NUEZ	Fruta	Árbol	Navidad	Almendra	Avellana
+LLUVIA	Agua	Caer	Paraguas	Tiempo	Mojar
+TELEGRAMA	Mensaje	Correo	Carta	Urgente	Morse
+JARABE	Liquido	Espeso	Cuchara	Frasco	Tos
+LAPIDA	Piedra	Cementerio	Epitafio	Tumba	Sepultura
+GIMNASIA	Ejercicio	Pesas	Aparatos	Deporte	Aerobic
+PIRAÑA	Morder	Comer	Pez	Diente	Río
+DESFILE	Modas	Pasar	9 de Julio	Militar	Marcha
+AMIGDALAS	Glándulas	Garganta	Inflamar	Operación	Niño
+ASOCIACION	Club	Grupo	Organización	Sociedad	Compañía
+FANTASIA	Imaginación	Pensamiento	Ilusión	Deseo	Sueño
+ALFABETO	Vocales	Consonantes	Leer	Abecedario	Letras
+OSRAM	Luz	Marca	Lamparita	Electricidad	Philips
+ESPUELAS	Jinete	Montar	Caballo	Metal	Puntas
+SECRETARIA	Ayudante	Ejecutivo	Oficina	Jefe	Agenda
+RESTAURANTE	Mozos	Mesas	Comer	Carta	Servir
+DIBUJO	Lápiz	Pintar	Garabato	Papel	Retrato
+BAÑO	Espejo	Toilet	Ducha	Lavarse	Inodoro
+CRUDO	Cocinar	Fuego	Cocido	Comida	Carne
+BOMBEROS	Incendio	Apagar	Fuego	Sirena	Mangueras
+BOTAS	Pies	Caminar	Zapatos	Cuero	Caballo
+VALIJA	Viajar	Guardar	Equipaje	Ropa	Llevar
+DINAMITA	Nobel	Mecha	Bomba	Tnt	Explosión
+PALOMA	Ave	Pájaro	Plumas	Alas	Paz
+PASA DE UVA	Corinto	Semillas	Arruga	Fruta	Seca
+DESNUDO	Vestido	En cueros	Ropa	En bolas	Sin
+CANIBAL	Comer	Salvaje	Humano	Antropófago	Tribu
+MENTIRA	Falso	Engaño	Verdad	Confianza	Decir
+PILA	Batería	Eveready	Duracell	Energizer	Linterna
+AMARGO	Azúcar	Dulce	Café	Mate	Remedio
+BUFALO	Animal	Buey	Bisonte	Indios	Oeste
+BOXEADOR	Guante	Round	K.o.	Ring	Peso
+SALCHICHA	Mostaza	Pancho	Perro	Vienissima	Comer
+RULETA	Números	Bolita	Negro	Rojo	Casino
+PARACAIDAS	Tirarse	Altura	Piloto	Saltar	Avión
+TINTA	Lapicera	Escribir	Birome	Pintar	Cartucho
+ROCK & POP	Radio	106,3	Aspen	Horizonte	FM
+REGALO	Cumpleaños	Dar	Navidad	Presente	Obsequio
+BOLETO	Tren	Colectivo	Pasaje	Sacar	Micro
+OTOÑO	Mes	Estación	Hojas	Verano	Invierno
+BOTON	Camisa	Ojal	Cierre	Abrochar	Manga
+DESEO	Querer	Capricho	Sexual	Tener	Pedir
+APELLIDO	Nombre	Familia	Hijo	Padre	Llamarse
+BASTON	Apoyar	Rengo	Palo	Caminar	Viejo
+ESPEJO	Vidrio	Retrovisor	Reflejar	Ver	Pared
+ADIVINANZA	Acertijo	Saber	Misterio	Descifrar	Descubrir
+CHICLE	Beldent	Golosina	Bazooka	Globo	Masticar
+IMPUESTOS	IVA	Pagar	DGI	Réditos	Ganancias
+ALBONDIGA	Redonda	Comida	Carne	Cacerola	Bola
+BANDA	Música	Orquesta	Grupo	Instrumentos	Marchas
+ECO	Voz	Sonido	Repetir	Montaña	Gritar
+MAQUILLAJE	Perfumería	Belleza	Cosmético	Salir	Arreglarse
+ZURDO	Mano	Izquierda	Derecha	Comunista	Maradona
+CANDADO	Cerradura	Llaves	Ladrón	Seguridad	Combinación
+CODIGO	Lenguaje	Morse	Descifrar	Secreto	Clave
+CALLE	Avenida	Semáforo	Negocios	Vereda	Cruzar
+SUPERMAN	Criptonita	Louis Lane	Clarck Kent	Película	Colar
+MESA	Silla	Mueble	Comer	Patas	Mantel
+ACUARIO	Agua	Mar	Zoológico	Pecera	Casa
+ANTIDOTO	Medicamento	Cura	Salvar	Remedio	Veneno
+RADIO	FM	AM	Dial	Noticias	Sintonía
+TORNO	Muela	Caries	Dentista	Dolor	Boca
+TROFEO	Carrera	Ganar	Campeón	Premio	Copa
+SUBTE	Tren	Transporte	Ciudad	Debajo	Estación
+BOWLING	Strike	Juego	Cancha	Tirar	Canaleta
+ZOOLOGICO	Animales	Jaulas	Jardín Botánico	Cautiverio	Cutini
+BIKINI	Tanga	Playa	Baño	Malla	Dos piezas
+FOTOCOPIA	Duplicado	Xerox	Original	Papel	Hojas
+MOÑO	Nudo	Corbata	Atar	Seda	Regalo
+CATARATAS DEL IGUAZU	Agua	Argentina	Misiones	Turistas	Cascada
+VIOLIN	Cuerdas	Instrumento	Música	Arco	Stradivarius
+PENTAGRAMA	Líneas	Cinco	Música	Componer	Notas
+ICEBERG	Hielo	Polo	Glaciar	Flotante	Titanic
+MICROBIO	Pequeño	Infección	Antibióticos	Vacuna	Enfermedad
+RETRATO	Identikit	Cara	Dibujar	Fotografía	Pintura
+JARDIN	Botánico	Pasto	Japonés	Flores	Plantas
+VELA	Luz	Cera	Candelabro	Cumpleaños	Mecha
+COÑAC	Copa	Bebida	Alcohol	Reserva San Juan	Licor
+FALSO	Mentir	Verdadero	Cuadros	Dinero	Trucho
+CITIZEN	Reloj	Agujas	Muñeca	Hora	Marca
+AVESTRUZ	Animal	Plumas	Esconder	Correr	Ala
+CARCEL	Barrotes	Prisión	Celda	Delincuente	Ladrón
+SIRENA	Pez	Canto	Mar	Cola	Mujer
+PATRIK	Heladera	Freezer	Marca	Congelador	Los abrepuertas
+DESCIFRAR	Jeroglífico	Código	Leer	Secreto	Clave
+TATI BORES	TV	Monologo	Peluca	Domingo	Humor
+SECRETO	Confidencial	Saber	Conservar	Decir	Guardar
+DETECTIVE	Crimen	Pista	Investigador	Sherlock Holmes	Lupa
+VIBORA	Cleopatra	Serpiente	Culebra	Reptil	Veneno
+MARCO	Foto	Cuadro	Retrato	Puerta	Pintura
+MULETAS	Caminar	Discapacitado	Yeso	Pierna	Roto
+CARLOS GARDEL	Cantante	Medellín	Zorzal	Tango	Argentino
+PIPA	Fumar	Tabaco	Cigarrillo	Humo	Nicotina
+MOLINO DE VIENTO	Campo	Aspas	Holanda	Harina	Don Quijote
+TABACO	Cigarrillo	Hojas	Fumar	Habano	Pipa
+MOVICOM	Llamar	Teléfono	Auto	Hablar	Inalámbrico
+HAREN	Muchas	Mujeres	Sultan	Musulmán	Concubinas
+PAISAJE	Viaje	Campo	Panorama	Horizonte	Vista
+PARASOL	Luz	Playa	Paraguas	Proteger	Sombrilla
+FABRICA	Industria	Operarios	Producir	Obreros	Maquinas
+CHISMOSO	Noticia	Soplón	Criticar	Rumores	Entrometido
+PAVA	Mate	Hervir	Agua	Calentar	Te
+BIBLIA	Religión	Dios	Libro	Santo	Testamento
+MARCADOR	Fibra	Sylvapen	Pintar	Colores	Escribir
+JUEZ	Sentencia	Jurado	Fiscal	Tribunal	Señoria
+KARATE	Artes Marciales	Judo	Oriental	Bruce Lee	Ninja
+PLUMA	Escribir	Almohada	Ave	Pájaro	Alas
+COMPASION	Sensible	Pena	Piedad	Sensación	Desgracia
+CAJA	Envase	Cartón	Guardar	Cofre	Recipiente
+CAJA FUERTA	Combinación	Ladrones	Guardar	Robar	Joyas
+ATAQUE	Asalto	Violencia	Agresión	Defender	Ofensiva
+GARAGE	Estacionamiento	Automóvil	Parking	Cochera	Guardar
+CASCARA	Banana	Recubrimiento	Envoltura	Naranja	Piel
+ZANELLA	Ciclomotor	Marca	Moto	Nacional	2 ruedas
+BOMBACHA	Ropa	Corpiño	Tanga	Calzoncillo	Mujer
+SED	Bebida	Gaseosa	Seco	Agua	Calmar
+ACNE	Cara	Barrocutina	Adolescente	Punto	Grano
+CARLOS MENEM	Presidente	La Rioja	Patillas	Zulema Yoma	Argentina
+VISA	Tarjeta	Plata	Marca	Crédito	Pagar
+NEGATIVO	Polos	Mas	Signo	No	Positivo
+MARCELO TINELLI	Pergolini	TV	Ritmo	Programa	Videomatch
+BEBE	Mamadera	Chupete	Nacer	Pañales	Cuna
+BISTURI	Quirófano	Instrumento	Cortar	Cirujano	Operar
+MICKEY	Walt Disney	Dibujos animados	Ratón	Minnie	Pluto
+ESPERMATOZOIDE	Pena	Eyacular	Ovulo	Testículos	Semen
+TORPEDO	Barco	Misil	Explosión	Submarino	Bomba
+VIRGEN	Maria	Hombre	Himen	Lujan	Sexo
+HUMO	Smog	Fuego	Quemar	Cigarrillo	Chimenea
+SORPRESA	Cumpleaños	Regalo	Fiesta	Inesperada	Imprevisto
+PULMON	Corazón	Respirar	Dos	Torax	Cuerpo
+PAGINA/12	Diario	Matutino	Jorge Lanata	Títulos	Periódico
+SEMAFORO	Trafico	Calle	Señal	Rojo	Verde
+KODAK	Cámara	Fotografía	Film	Marca	Revelar
+MILLONARIO	Jet-Set	Tener	Rico	Dinero	Plata
+JOHNSON’S	Shampoo	Pelo	Lavar	Jabón	Marca
+QUIETO	Agitado	Tranquilo	Inmóvil	Moverse	Sentado
+CIENTIFICO	Descubrimiento	Experimento	Laboratorio	Microscopio	Tubo de ensayo
+CHEQUE	Banco	Plata	Pagar	Papel	Firmar
+PARTE	Entero	Trozo	Pedazo	Fracción	Fragmento
+FOSFOROS	Madera	Fuego	Prender	Encendedor	Cerillas
+ARBITRO	Juez	Reglas	Deportes	Futbol	Referi
+BARRIL	Cerveza	Tonel	Madera	Vino	Cuba
+DEBUT	Primera vez	Estreno	Virgen	Comienzo	Artista
+ANIVERSARIO	Casamiento	Celebración	Festejo	Fecha	Cumpleaños
+CUCARACHA	Insecto	Cocina	Bicho	Nocturno	Comida
+GOLF	Caddy	Hoyos	18	Golpe	Palos
+ENREDADERA	Jardín	Subir	Planta	Pared	Trepar
+CHOFER	Coche	Conductor	Manejar	Volante	Camión
+CIRCUITO	Carrera	Competición	Pista	Formula 1	Recorrido
+HURACAN	Viento	Ciclon	Tormenta	Tornado	Torbellino
+VENECIA	Italia	Ciudad	Agua	Canales	Góndolas
+PLANTA	Verde	Hojas	Regar	Maceta	Vegetal
+MAYONESA	Mostaza	Hellmann’s	Amarilla	Condimento	Sándwich
+MERCADO DE VALORES	Bolsa	Acciones	Vender	Wall Street	Comprar
+PALA	Herramienta	Sacar	Pozo	Tierra	Agujero
+HACHA	Cortar	Bosque	Leñador	Madera	Árbol
+MADERA	Tronco	Leños	Carpintero	Árboles	Tabla
+ESCENARIO	Obra	Actores	Espectáculo	Telón	Teatro
+NOVIA	Soltera	Blanco	Casarse	Vestido	Ramo
+COCA-COLA	Bebida	Gaseosa	Marca	Tomar	Pepsi
+PEZON	Pechos	Tetas	Mujer	Punta	Leche
+MARIO PERGOLILNI	TV	Radio	Ataca	Hacelo	Tinelli
+HIMEN	Virgen	Mujer	Vagina	Membrana	Sexo
+PLASTICOLA	Adhesivo	Marca	Colegio	Pegamento	Papel
+PLAGIO	Copia	Imitación	Ideas	Delito	Falso
+FURGON DE COLA	Final	Vagón	Locomotora	Tren	Ultimo
+PAJARO	Nido	Volar	Piar	Alas	Aves
+HOMBRE RANA	Agua	Mar	Tubos	Escafandra	Buzo
+MANGUERA	Regar	Agua	Canilla	Caño	Goma
+POSTE	Cerco	Palo	Columna	Mástil	Arco
+ESCORPION	Aguijón	Desierto	Alacrán	Picar	Veneno
+HOTEL	Estrellas	Turistas	Albergue	Hospedaje	Motel
+GUARDAPOLVO	Blanco	Escuela	Primaria	Maestra	Alumno
+CUNA	Dormir	Bebe	Canción	Barrotes	Muebles
+TENIS	Deporte	Pelota	Cancha	Raqueta	Red
+NIDO	Pájaro	Pichones	Huevos	Casa	Árbol
+CENIZAS	Fuego	Fumar	Polvo	Quemar	Cigarrillo
+RADIADOR	Anticongelante	Enfriar	Coche	Agua	Motor
+PAIS	Estado	Nación	Gobierno	Frontera	Bandera
+CARPA	Campamento	Tienda	Dormir	Camping	Circo
+LAVARROPAS	Maquina	Electrodoméstico	Tambor	Centrifugar	Jabón
+RELOJ	Hora	Tiempo	Despertador	Muñeca	Agujas
+QUIOSCO	Golosinas	Negocio	Caramelos	Cigarrillos	Vender
+ESTOMAGO	Panza	Tripa	Comida	Cuerpo	Digestión
+BARRO	Lluvia	Tierra	Lodo	Agua	Fango
+COWBOY	Pistola	Sombrero	Caballo	Indios	Oeste
+ARENA	Playa	Fina	Piedra	Rocas	Erosión
+PODIO	Campeón	Ganador	Pedestal	Triunfador	Subir
+FLAN	Leche	Molde	Postre	Huevos	Caramelo
+CAMELLO	Animal	Desierto	Joroba	Arena	Dromedario
+ALUMINIO	Metal	Cacerola	Avión	Acero	Liviano
+AGENDA	Abecedario	Días	Direcciones	Teléfonos	Morgan
+COSQUILLAS	Dedos	Hacer	Pies	Sensación	Risa
+HERIDA	Sangre	Corte	Curita	Coser	Puntos
+COSTILLAS	Esqueleto	Espalda	Huesos	Pecho	Cuerpo
+PIZZA	Napolitana	Mozzarella	Queso	Faina	Fugaza
+ANCHOA	Sardina	Pescado	Lata	Comida	Salado
+CIRCO	Pista	Carpa	Payasos	Trapecista	Domador
+COLCHON	Cama	Almohada	Acostarse	Sabanas	Dormir
+ESPIA	CIA	Side	Traidor	Secreto	James Bond
+GIRASOL	Planta	Semillas	Aceite	Flor	Amarillo
+BEBIDA	Liquido	Tomar	Agua	Sed	Brindar
+BOTELLA	Tapón	Envase	Recipiente	Vidrio	Frasco
+CUPIDO	Arco	Flechazo	Amor	Dios	Corazón
+TELEFONO	Numero	Llamar	Movicom	Tomo	Ocupado
+BOLEADORAS	Cazar	Caballo	Lanzar	Indios	Avestruz
+COLUMNA VERTEBRAL	Esqueleto	Cuerpo	Costillas	Huesos	Sostener
+PRONOSTICO	Predicción	Nublado	Lluvia	Temperatura	Tiempo
+CRITICO	Película	Opinión	Teatro	Arte	Comentar
+PAN	Harina	Levadura	Galletitas	Sándwich	Tostadas
+PIJAMA	Dormir	Cama	Ponerse	Ropa	Camisón
+LUNA	Noche	Sol	Satélite	Espacio	Estrellas
+ALBINO	Blanco	Ojos	Cara	Piel	Color
+NAFTA	Combustible	Surtidor	Auto	Tanque	Estación
+COLOR	Amarillo	Tojo	Verde	Azul	Marrón
+MERCENARIO	Soldado	Guerra	Pago	Extranjero	Militar
+SEMANA	Mes	Cuatro	Tiempo	Siete	Días
+TESORO	Piratas	Mapa	Cofre	Oro	Isla
+HOSPITAL	Doctor	Medico	Curar	Internar	Enfermo
+ANILLO	Dedos	Mano	Sortija	Compromiso	Alianza
+LAGARTO	Cocodrilo	Animal	Sol	Reptil	Pequeño
+SHOPPING	Alto Palermo	Comprar	Unicenter	Negocios	Galería
+ALMIBAR	Azúcar	Dulce	Fruta	Lata	Liquido
+ESTAMPILLA	Carta	Sobre	Correo	Lamer	Sello
+ALARMA	Robo	Casa	Banco	Atraco	Ladrón
+CORBATA	Vestir	Seda	Camisa	Cuello	Nudo
+FLORERO	Planta	Recipiente	Ramo	Pote	Agua
+POKER	Apostar	Naipes	Juego	Baraja	Cartas
+MOCHILA	Bolso	Hombro	Caminata	Llevar	Espalda
+PLAYA	Arena	Costa	Verano	Mar	Olas
+PIRATA	Calavera	Abordaje	Barcos	Mar	Pata
+BRILLANTE	Diamante	Sol	Luz	Radiante	Luminoso
+MARIPOSA	Larva	Volar	Insecto	Flores	Alas
+LADRILLO	Construir	Casa	Barro	Edificio	Obra
+INYECCION	Jeringa	Aguja	Pinchar	Cola	Dolor
+REVENTAR	Explotar	Globo	Bomba	Detonar	Dinamita
+DRACULA	Conde	Sangre	Transilvania	Colmillos	Vampiro
+TRANVIA	Trolebús	Eléctrico	Calle	Vías	Tren
+DOMICILIO	Vivir	Casa	Calle	Dirección	Numero
+NOTA	Musical	Canción	Pentagrama	Sonido	Escala
+JARRON	Flores	Agua	Adorno	Porcelana	Cristal
+TRIGO	Harina	Grano	Pan	Cereal	Espiga
+RALLY	Carrera	Auto	Etapas	Competencia	Copiloto
+GUARDAESPALDA	Matón	Policía	Detective	Proteger	Cuidar
+CAFE	Taza	Grano	Moler	Negro	Filtro
+ATEO	Dios	Creer	Religión	Vida	Muerte
+JAZZ	Música	New Orleans	Negro	Trompeta	Piano
+ESPANTAPAJAROS	Asustar	Campo	Aves	Maizal	Proteger
+MARTIR	Santo	Muerte	Religión	Sacrificio	Sufrir
+PUENTE	Cruzar	Río	Levadizo	Colgante	Sobre
+AMETRALLADORA	Arma	Automático	Disparar	Balas	Gatillo
+TARDE	Mañana	Mediodía	Horas	PM	Siesta
+LOTERIA	Billete	Números	Bolillero	Sorteo	Juego
+DADOS	Generala	Tirar	Juego	Cubo	Caras
+TRINEO	Esquíes	Patinar	Nieve	Perros	Hielo
+ABUELO	Nieto	Padre	Viejo	Jubilado	Anciano
+MEDIANOCHE	Cenicienta	Mediodía	Final	Hora 24	Doce en Punto
+ESCAMAS	Reptiles	Placas	Piel	Cubrir	Peces
+AMNESIA	Recuerdos	Memoria	Acordarse	Cabeza	Olvidarse
+RINOCERONTE	Cuerno	Animal	África	Mamífero	Salvaje
+JOROBADO	Encorvado	Espalda	Deforme	Giba	Notre Dame
+REMOLACHA	Comida	Tubérculo	Cocinar	Morada	Azúcar
+ENSALADA	Comida	Fría	Lechuga	Mixta	Tomate
+COBARDE	Valor	Atreverse	Miedo	Enfrentar	Defenderse
+JAMON	Carne	Fiambre	Cerdo	Cocido	Crudo
+INMORTAL	Vivir	Morir	Eternidad	Siempre	Perpetuo
+BESO	Boca	Mejilla	Amor	Judas	Labios
+BALDE	Llevar	Plástico	Recipiente	Agua	Manija
+OCEANO ATLANTICO	Pacifica	Agua salada	Costa	Mar	Olas
+CAMPANA	Tocar	Iglesia	Bronce	Badajo	Escuela
+VENENO	Antídoto	Víbora	Mortal	Picadura	Cianuro
+ARACELI GONZALEZ	TV	Modelo	Banda	Canal 13	Pelo
+MENOR DE EDAD	Chico	Niño	18 años	Joven	Mayor
+MUDO	Hablar	Voz	Señas	Sordo	Boca
+AMAZONA	Mujer	Caballo	Montar	Jinete	Galopar
+PAPA	Patata	Comer	Puré	Tortilla	Fritas
+ACUPUNTURA	Clavar	Agujas	Cuerpo	Chino	Doctor
+MANUBRIO	Bicicleta	Volante	Dirigir	Timbre	Freno
+GUILLOTINA	Cortar	Cuchilla	Cabeza	Francia	Revolución
+HUESO	Esqueleto	Romper	Yeso	Calcio	Perro
+COMPUTADORA	Programa	Impresora	Disquete	Monitor	Teclado
+IGLOO	Alaska	Esquimal	Nieve	Casa	Hielo
+PULPO	Ocho	Tentáculos	Tinta	Pescadera	Océano
+SOGA	Atar	Nudo	Ahorcar	Cuerda	Sujetar
+PUBLICO	Aplauso	Gente	Privado	Espectáculo	Teatro
+BOOMERANG	Aire	Australia	Forma	Volver	Tirar
+DIVORCIADO	Casado	Estado civil	Separado	Ex	Matrimonio
+ACOPLADO	Camión	Remolque	Carga	Transporte	Detrás
+LADRIDO	Perro	Voz	Asustar	Morder	Guardián
+CORTINA	Ventana	Tela	Riel	Correr	Cerrar
+OCULISTA	Consulta	Vista	Miope	Lentes	Medico
+BATALLA	Armas	Combate	Conflicto	Lucha	Guerra
+TORRE EIFEL	París	Francia	Europa	Símbolo	Ciudad Luz
+HUERFANO	Padres	Papa	Mama	Asilo	Adoptar
+KELLOGG’S	Palitos	Chizitos	Papas fritas	Bun	Marca
+UNICORNIO	Silvio Rodríguez	Animal	Patas	Caballo	Azul
+OPERA	Cantar	Escena	Música	Pavarotti	Tenor
+CIEGO	Bastón	Lazarillo	Ver	Perro	Braile
+TRAMPOLILN	Pileta	Zambullida	Nadar	Agua	Tirarse
+DESTORNILLADOR	Herramienta	Mano	Tuerca	Clavo	Vuelta
+UNIVERSIDAD	Estudios	Cátedra	Facultad	Carrera	Terciario
+JUGUETE	Chicos	Reyes	Regalo	Chiche	Niños
+CLEMENTE	Mulatona	Brazos	Caloy	Clarín	Chiste
+CUCHARA	Tenedor	Mesa	Comer	Sopa	Cuchillo
+CEMENTO	Cal	Arena	Loma negra	Ladrillos	Obra
+ALBERT EINSTEIN	Teoría	Bomba atómica	Relatividad	Físico	Científico
+CARPINTERO	Madera	Lija	Ebanista	Barnizar	Mueble
+CUERPO HUMANO	Anatomía	Piernas	Esqueleto	Cadáver	Musculos
+LENGUA	Boca	Gusto	Chupar	Hablar	Idioma
+ALMOHADON	Sofá	Sillón	Apoyacabezas	Plumas	Funda
+SMOKING	Traje de etiqueta	Negro	Ceremonia	Gala	Frac
+ACOMODADOR	Cine	Linterna	Asiento	Propina	Programa
+TUNEL	Agujero	Subterráneo	Pasar	Montañas	Puente
+INVERNADERO	Caliente	Cultivar	Cubierto	Plantas	Vidrio
+GI-MONTE	Crema	Apaga	Luz	Erección	Pomada
+ESTATUA DE LA LIBERTAD	Mujer	Antorcha	Monumento	Estados Unidos	New York
+TORTA	Dulce	Postre	Cumpleaños	Pastel	Velitas
+PISTOLA	Arma	Revolver	Disparar	Balas	Gatillo
+ALBUM	Figuritas	Colección	Fotos	Libro	Estampillas
+PRISMATICOS	Larga vista	Mirar	Catalejo	Anteojos	Cerca
+ORO	Dientes	Metal precioso	Kilate	Anillo	Caro
+BARILOCHE	Neuquén	Argentina	Ciudad	Nieve	Egresados
+AGUA	Liquido	Beber	Tomar	Sed	Canilla
+ESTRANGULAR	Asesinar	Asfixiar	Matar	Cuello	Garganta
+BATUTA	Director	Orquesta	Palo	Varilla	Músicos
+BOMBON	Comer	Dulce	Caramelo	Chocolate	Caja
+SPAR	Cocina	Purificador	Sacar	Extractor	Humo
+SATELITE	Espacio	TV	Orbita	Luna	Artificial
+WRANGLER	Jean	Pantalón	Ropa	Camisa	Marca
+DESCONGELAR	Derretir	Deshielo	Freezer	Agua	Heladera
+AUTOGRAFO	Fan	Lapicera	Famoso	Firma	Nombre
+CASAMIENTO	Boda	Iglesia	Luna de Miel	Novia	Civil
+COCHE FUNEBRE	Cementerio	Llevar	Funeral	Muerto	Vehiculo
+MAFALDA	Dibujo	Quino	Chiste	Niña	Manolito
+CALCULADORA	Operaciones	Maquina	Aparato	Números	Pilas
+ONDA	Ola	Movimiento	Mar	Línea	Curva
+NIG BEN	Inglaterra	Londres	Monumento	Reloj	Tiempo
+RECETA	Comida	Indicaciones	Ingredientes	Instrucciones	Cocinar
+ELEFANTE	Marfil	Africa	Trompa	Colmillo	Dumbo
+TREN ELECTRICO	Vías	Humo	Locomotora	Vehiculo	Vagón
+SANDIA	Jugosa	Verano	Fruta	Semilla	Verde
+OVNI	Espacio	Nave	Extraterrestre	Luna	Marciano
+CESTO	Ropa	Mimbre	Huevos	Canasta	Guardar
+TOCADISCOS	Bandeja	Revoluciones	Pasacasete	Pua	Música
+PUERTO	Mar	Muelle	Barco	Carga	Anclar
+CEMENTERIO	Tumba	Enterrar	Funeral	Muerte	Chacarita
+YOGUR	Descremado	Cucharita	Leche	Bebible	Vaca
+ENCHUFE	Electricidad	Cables	Luz	Corriente	Electrodomésticos
+PANADERIA	Flautitas	Harina	Horno	Facturas	Miñoncitos
+TARJETA DE CREDITO	Dinero	Plástico	Comprar	Plata	Pagar
+SECUESTRAR	Esconder	Raptar	Rehén	Rescate	Delito
+CICLOMOTOR	Cilindrada	Moto	2 ruedas	Bicicleta	Manubrio
+COMETA	Estrella	Cielo	Espacio	Astro	Halley
+LOCO	Enojado	Furioso	Demente	Trastornado	Manicomio
+LADRON	Robar	Asalto	Arma	Banco	Delincuente
+SILLA	Respaldo	Sentarse	Descansar	Patas	Mueble
+NARANJA	Fruta	Jugo	Amarillo	Cítrico	Limón
+ABOGADO	Defensa	Acusado	Letrado	Prueba	Juicio
+TARANTULA	Negro	Insecto	Araña	Veneno	Peludo
+ESTRELLA	Espacio	Planeta	Luna	Fugaz	Noche
+LECHE	Bebida	Blanco	La Serenisima	Sachet	Vaca
+CRUCERO	Barco	Mar	Vacaciones	Viaje	Camarote
+AMULETO	Talismán	Suerte	Superstición	Pata de conejo	Mascota
+PICK UP	Camioneta	Auto	4 ruedas	Carga	F-100
+SODA	Gas	Burbujas	Ivess	Sifón	Agua
+DESAYUNO	Cena	Almuerzo	Merienda	Levantarse	Mañana
+NOVELA	Libro	Leer	Escritor	Narración	Cuento
+TRAGAMONEDAS	Tres	Casino	Maquina	Jugar	Azar
+ALVARO ALSOGARAY	Maria Julia	Político	UCD	Ministro	Liberal
+PING PONG	Paleta	Red	Pelota	Juego	Tenis de Mesa
+PLANCHA	Electrodoméstico	Ropa	Arruga	Apresto	Calor
+FIDEOS	Spaguetti	Pasta	Tuco	Tallarin	Comida
+MINIFALDA	Pollera	Ropa	Mujer	Corta	Vestido
+COMISARIA	Patrullero	Policía	Detenerse	Barrio	Calabozo
+LIBRE	Ocupado	Taxi	Preso	Esclavo	Pájaro
+LINEA	Raya	Escribir	Trazo	Recta	Curva
+EMERGENCIA	Ambulancia	Urgencia	S.O.S.	Llamada	Accidente
+CANOA	Agua	Navegar	Indio	Remo	Bote
+HOTEL ALOJAMIENTO	Albergue	Telo	Habitación	Pagar	Hora
+BARANDA	Agarrarse	Escalera	Pasamano	Balcón	Olor
+GEOMETRIA	Ángulos	Escuela	Escuadra	Compas	Polígonos
+BIBLIOTECA	Escritores	Leer	Libros	Silencio	Fichero
+TEJER	Agujas	Ovillo	Crochet	Pullover	Lana
+SONRISA	Dientes	Labios	Cara	Boca	Alegría
+SHELL	Nafta	Combustible	Lubricante	Estación de Servicio	ESSO
+AVION	Alas	Aire	Volar	Piloto	Aeropuerto
+COLLAR	Perlas	Joya	Colgante	Adorno	Garganta
+CARTERA	Bolso	Documentos	Billetera	Mujer	Llaves
+BUFANDA	Frío	Lana	Boca	Proteger	Cuello
+GUANTE	Manos	Dedos	Invierno	Boxeador	Lana
+INVERSION	Finanzas	Bolsa	Dinero	Acciones	Banco
+JOCKEY	Carrera	Fusta	Hipódromo	Montar	Caballo
+ISLA	Océano	Mar	Tierra	Rodeada	Agua
+ENTRADA	Puerta	Dentro	Acceso	Ingreso	Salida
+COLECTIVO	Boleto	Viajar	Línea	Bondi	Micro
+NESQUIK	Cacao	Polvo	Chocolate	Merienda	Leche
+TARZAN	Chita	Jane	Selva	Grito	Lianas
+PRECIOSA	Bella	Hermosa	Linda	Bonita	Piedra
+ACONCAGUA	Mendoza	Montaña	Cordillera	Alta	Alpinismo
+AMARILLO	Banana	Sol	Color	Limón	Oro
+CAMPO	Cultivar	Ciudad	Gaucho	Vacas	Rural
+TURISTA	Extranjero	Viaje	Visitar	Hotel	Vacaciones
+MONTAÑA	Esquí	Rocas	Escalar	Everest	Cordillera
+CRISTOBAL COLON	12 de Octubre	Descubridor	America	Carabelas	Puerto de Palos
+CARRETILLA	Llevar	Rueda	Arena	Obra	Tierra
+PORNOGRAFIA	Erotismo	Censura	Revistas	Películas	Obseno
+BALCON	Edificio	Departamento	Terraza	Baranda	Calle
+CAPATAZ	Encargado	Fabrica	Obreros	Mandar	Trabajo
+CRIMEN	Cadáver	Asesinato	Victima	Homicidio	Matar
+CALZONCILLOS	Bombacha	Hombre	Slip	Pantalón	Ropa Interior
+CERVEZA	Bebida	Porrón	Espuma	Chop	Balón
+RELAMPAGO	Descarga	Nube	Tormenta	Rayo	Trueno
+VEREDA	Calle	Circular	Peatón	Baldosa	Cordón
+FRIGIDA	Insensible	Mujer	Placer	Orgasmo	Sexual
+COMERCIANTE	Negocio	Minorista	Vender	Comprar	Tienda
+BERENJENA	Comer	Cultivar	Planta	Púrpura	Vegetal
+PALMERA	Datil	Coco	Árbol	Mono	Trópico
+RONCAR	Noche	Ruido	Nariz	Dormir	Molestar
+ANGEL	Paraíso	Diablo	Demonio	Cielo	Alas
+BANDONEON	Música	Acordeón	Instrumento	Tango	Piazzola
+BOTIQUIN	Baño	Espejo	Remedios	Guardar	Armario
+PINOCHO	Mentira	Nariz	Gepetto	Muñeco	Cuento
+BILLIKEN	Anteojito	Revista	Infantil	Quiosco	Niños
+UNIFORME	Vestido	Igual	Colegio	Ejercito	Policía
+TERREMOTO	Derrumbe	Sismo	Temblor	Tierra	Movimiento
+CONFUCIO	Filosofo	Chino	Proverbio	Religión	Sabio
+SUERTE	Buena	Yeta	Amuleto	Mala	Culo
+PLOMERO	Gotera	Agua	Caños	Arreglar	Canillas
+PIMIENTA	Cocina	Picante	Sabor	Condimento	Sal
+CERDO	Animal	Embutido	Jamón	Chancho	Fiambre
+FUTBOL	Maradona	Deporte	Arco	Gol	Pelota
+DEDAL	Aguja	Pinchar	Metal	Protección	Coser
+SKATE	Patineta	Monopatín	Cuatro	Ruedas	Tabla
+COMPACT DISC	Escuchar	Láser	Canción	Casette	Música
+POLLO	Ave	Plumas	Comer	Gallina	Pavo
+FARMACIA	Medico	Inyección	Remedios	Receta	Turno
+FUEGO	Fósforo	Llamas	Hoguera	Quemar	Leña
+ARROZ	Cereal	Comida	Grano	Chino	Integral
+HOJA	Verde	Caer	Árbol	Planta	Rama
+ALGODÓN	Cura	Sangre	Herida	Rama	Farmacia
+FANTASMA	Sabana	Miedo	Cadenas	Castillo	Espíritu
+PINTAR	Artista	Cuadro	Colores	Pincel	Pared
+SALA DE ESPERA	Consultorio	Revistas	Paciente	Medico	Asientos
+BRUJULA	Orientarse	Norte	Aguja	Imantada	Cardinales
+NASHUA	Japonesa	Fotocopiadora	Marca	Librería	Maquina
+CIUDAD	Municipio	Capital	Población	Edificios	Intendente
+ARTISTA	Pintor	Escultor	Actor	Fama	Premio
+AZULEJO	Cerámica	Pared	Baño	Cocina	Decoración
+ERUCTO	Ruido	Bebe	Comer	Boca	Provechito
+PARQUIMETRO	Ficha	Coche	Estacionar	Tiempo	Reloj
+GORILA	Mono	Chimpance	Orangutan	King-kong	Zoológico
+ANDEN	Tren	Estación	Esperar	Subir	Bajar
+ANGULO	Recta	Grado	Geometría	Polígono	Lado
+FIESTA	Cumpleaños	Celebración	Regalos	Amigos	Invitaciones
+ALFOMBRA	Carpeta	Kalpakian	Piso	Moqueta	Suelo
+CICATRIZ	Señal	Marca	Herida	Piel	Huella
+GELATINA	Flan	Comer	Postre	Helado	Transparente
+OLIMPICO	Atletas	Medallas	Juegos	Competición	Países
+ANALISIS	Sangre	Orina	Laboratorio	Medico	Enfermo
+CORONA	Rey	Cabeza	Oro	Redonda	Símbolo
+HELICOPTERO	Avión	Volar	Rotor	Vertical	Hélice
+ASADO	Fuego	Parrilla	Carbón	Carne	Cocinar
+PUÑAL	Arma	Mano	Cuchillo	Espada	Daga
+ANESTESIA	Dolor	Operación	Dormir	Sentir	Medico
+LACOSTE	Chomba	Marca	Ropa	Cocodrilo	Lagarto
+INSOMNIO	Cama	Dormir	Desvelo	Sueño	Noche
+COLADOR	Te	Agujeros	Filtro	Fideos	Agua
+BALA	Cartucho	Pistola	Disparar	Proyectil	Escopeta
+HAVANNA	Alfajor	Marca	Golosina	Mar del Plata	Chocolate
+GATILLO	Dedo	Tirar	Apretar	Disparar	Pistola
+ANZUELO	Caña	Pescador	Tirar	Cebo	Lombriz
+SOMBRERO	Gorra	Casco	Poner	Cabeza	Ala
+MAMADERA	Leche	Tetina	Comer	Bebe	Chupar
+PERCHA	Colgar	Ropa	Placard	Arruga	Vestido
+COLONIA	Desodorante	Aroma	Perfume	Olor	Fragancia
+ANTEPASADO	Árbol Genealógico	Descendiente	Familiar	Abuelo	Ascendiente
+BALANZA	Pesar	Platillo	Kilos	Farmacia	Gramo
+ANTENA	TV	Radio	Captar	Emisión	Onda
+INDICE	Orden	Libro	Principio	Paginas	Final
+CLIENTE	Vendedor	Pagar	Comprar	Razón	Negocio
+BOSTEZO	Boca	Abrir	Sueño	Aburrimiento	Contagioso
+SINGULAR	Plural	Individual	Uno	Particular	Solo
+PROPINA	Mozo	Acomodador	Cine	Dinero	Asiento
+AYER	Mañana	Tiempo	Antes	Día	Pasado
+NAUFRAGO	Isla	Barco	Palmera	Barba	Botella
+BALLENA	Mar	Animal	Grande	Surtidor	Moby Dick
+PAVO REAL	Pájaro	Ave	Pollo	Plumas	Cola
+CUARTETO	Instrumentos	Música	Cantantes	Conjunto	Grupo
+POLEN	Flores	Abeja	Mariposa	Planta	Polvo
+CARILINA	Nariz	Papel	Descartable	Pañuelo	Hojas
+RONALD REAGAN	Bush	Actor	Político	Presidente	Estados Unidos
+DEDO	Mano	Uñas	Nudillos	Anillo	Puño
+DINOSAURIO	Prehistórico	Grande	Gigante	Reptil	Antigüedad
+CHOCOLATE	Comer	Bombón	Dulce	Cacao	Alfajor
+MENSAJERO	Llevar	Telegrama	Carta	Paquetes	Moto
+HOROSCOPO	Astrología	Doce	Zodiaco	Signos	Futuro
+AUTOCINE	Película	Coche	Estacionar	Aire Libre	Mirar
+AEROLINEAS ARGENTINAS	Ezeiza	Aviones	Volar	Iberia	Compañía
+ESPUMA	Burbujas	Cerveza	Lavado	Olas	Jabón
+PARIENTE	Abuelos	Padres	Tíos	Familiar	Cónyuge
+HELADO	Frío	Crema	Palito	Cucurucho	Bombón
+VOLEY	Pelota	Juego	Remate	Saque	Red
+CASPA	Cuero Cabelludo	Shampoo	Pelo	Tener	Cabeza
+TATUAJE	Aguja	Cuerpo	Dibujo	Piel	Tinta
+ANANA	Fruta	Rodajas	Piña	Brasil	Comer
+TORTUGA	Animal	Manuelita	Lenta	Caparazón	M. Elena Walsh
+PACIENTE	Hospital	Esperar	Curarse	Doctor	Enfermo
+TOLDO	Sol	Lluvia	Balcón	Tela	Protección
+ABANDERADO	Colegio	Alumno	Acto	Elegido	Notas
+PLAZA	Chicos	Árboles	Jugar	Tobogán	Hamacas
+HORNO	Microondas	Gas	Comida	Calor	Cocina
+FUMAR	Tabaco	Habano	Humo	Pipa	Cigarrillo
+PEINE	Dientes	Cabeza	Pelo	Cepillo	Espejo
+PRECIPICIO	Altura	Caer	Montaña	Barranco	Abismo
+DILIGENCIA	Carruaje	Caballo	Transporte	Vaquero	Oeste
+LOCUTOR	Hablar	Radio	TV	Noticias	Avisos
+INSECTO	Animal	Patas	Pequeño	Pica	Antenas
+EXPLOSION	Pólvora	Detonador	Bomba	Ruido	Dinamita
+GUITARRA	Tocar	Música	Cuerdas	Eléctrica	Instrumento
+ATAUD	Cajón	Muerto	Enterrar	Cementerio	Velorio
+MAPA	Cartografía	Atlas	Geografía	Rutas	Globo terráqueo
+REINA	Corona	Monarquía	Príncipe	Inglaterra	Mujer
+AMANECER	Día	Noche	Sol	Alborada	Principio
+AJEDREZ	Juego	Tablero	Ficha	Blancas	Negras
+TAPA	Rosca	Cerrar	Cacerola	Hermética	Cubierta
+MEJILLA	Beso	Cara	Bofetada	Cachete	Moflete
+EPIDEMIA	Vacuna	Enfermedad	Contagiarse	País	Muertos
+CITA	Reunión	Fecha	Pedir	Encontrarse	Teléfono
+QUINI 6	Juego	Loto	Apuesta	Números	Agencia
+SOLDADO	Conscripto	Guerra	Militar	Colimba	Ejercito
+VIEJO	Joven	Jubilado	Abuelo	Nuevo	Antiguo
+TRENZA	Niña	Peinado	Cabeza	Pelo	Tres
+EMBUDO	Botella	Liquido	Damajuana	Hueco	Llenar
+TARJETA POSTAL	Correo	Vacaciones	Recuerdos	Foto	Cartero
+DALMATA	Animal	Perro	Raza	Manchas	Ladrar
+OMBLIGO	Panza	Cordón	Cicatriz	Marca	Umbilical
+ESCUELA	Guardapolvo	Maestra	Recreo	Aula	Alumnos
+MISIL	Cohete	Exocet	Proyectil	Arma	Explosión
+IBM	Computadora	Impresora	Monitor	Marca	Teclado
+VENTRILOCUO	Muñeco	Chasman y Chirolita	Hablar	Vientre	Boca
+ESPADA	Acero	Arma	Cuchillo	Esgrima	Sable
+CONEJO	Animal	Dientes	Orejas	Bugs Bunny	Zanahoria
+HUEVO	Clara	Gallina	Frito	Comida	Yema
+VELADOR	Luz	Lámpara	Leer	Cama	Mesa
+ESCAPARSE	Huir	Quedarse	Evadirse	Rápido	Correr
+LINTERNA	Luz	Portátil	Lámpara	Pilas	Farol
+ADAN	Serpiente	Eva	Hombre	Manzana	Paraíso
+BANDERA	Flamear	País	Mástil	Azul	Símbolo
+ACTOR	Artista	Interprete	Películas	Teatro	Televisión
+POSITIVO	Resultado	Si	Mas	Negativo	Signo
+PUMPER NIC	Comer	Hamburguesa	Hipopótamo	Mac Donalds	Auto-Service
+SHERLOCK HOLMES	Watson	Detective	Lupa	Pipa	Ingles
+AGREE	Shampoo	Pelo	Lavar	Marca	Crema de enjuague
+CARAMELO	Papel	Suchard	Caries	Dulce	Quiosco
+ESCLAVO	Encadenado	Libre	Escapar	Cautivo	Prisionero
+ELEGANTE	Atractivo	Aspecto	Encantador	Bien vestido	Ropa
+AJLEA	Dulce	Fruta	Mermelada	Gelatina	Consistencia
+AMENAZA	Asustar	Carta	Peligro	Advertencia	Aviso
+NUDILLO	Hueso	Articulación	Parte	Mano	Dedo
+BILLAR	Juego	Bolas	Pool	Taco	Carambola
+ARRUGA	Planchar	Línea	Cara	Piel	Viejo
+CARNICERO	Vender	Vaca	Comprar	Asado	Mercado
+MURCIELAGO	Vampiro	Colmillos	Batman	Sangre	Noche
+PROSTITUTA	Puta	Mujer	Pagar	Profesional	Calle
+SALVAVIDAS	Nadar	Pileta	Playa	Flotar	Ahogarse
+AMPOLLA	Herida	Piel	Quemadura	Roce	Zapatos
+DISFRAZ	Baile	Traje	Carnaval	Mascara	Fiesta
+ESTEROIDES	Doping	Droga	Atleta	Hormonas	Músculos
+IMAN	Hierro	Atracción	Brújula	Norte	Magnético
+AYUDA	Apoyo	Auxilio	Socorro	Problema	Asistencia
+CARNADA	Cebo	Caña	Anzuelo	Pescar	Lombriz
+SIMPLE	Difícil	Doble	Fácil	Compuesto	Sencillo
+VENUS	Mercurio	Plutón	Espacio	Planeta	Luna
+COSECHA	Siembra	Recolección	Fruta	Trigo	Campesino
+AMOR	Querer	Casamiento	Corazón	Afecto	Odio
+CEBRA	Animal	Blanco	Caballo	Rayado	Negro
+MANTECA	Alimento	Vaca	Leche	Margarina	Untar
+SAUL UBALDINI	Campera	CGT	Gremialista	Político	Huelgas
+PELE	Futbolista	Nº 10	Brasileño	Deportista	Xuxa
+SOLTERO	Casado	Novio	Estado Civil	Despedida	Compromiso
+PALMADA	Amistoso	Golpecito	Espalda	Mano	Aplauso
+TERMO	Botella	Caliente	Frío	Agua	Mate
+CANGREJO	Pinzas	Crustáceo	Caparazón	Caminar	Mar
+PELUQUERO	Afeitar	Cabello	Cortar	Bigotes	Tijeras
+CHAMPAGNE	Frances	Brindar	Corcho	Vino	Sidra
+RATING	Encuesta	Opinión	TV	Programa	Porcentaje
+TRUCO	Flor	Juego	Envido	Quiero	Cartas
+TELESCOPIO	Astrónomo	Estrellas	Observatorio	Planetas	Microscopio
+KAMIKAZE	Guerra	Suicida	Piloto	Japonés	Aviador
+CACTUS	Pincha	Agua	Arena	Desierto	Planta
+GACEL	Senda	Volkswagen	Auto	Modelo	Gol
+CARRERA DE CABALLOS	Apuestas	Stud	Hipódromo	Pura sangre	Jockey
+IRRTAR	Alterar	Joder	Molestar	Enojar	Nervios
+DEPARTAMENTO	Ascensor	Alquilar	Edificio	Piso	Vivienda
+TEATRO	Escena	Función	Actores	Director	Telón
+DICCIONARIO	Definición	Libro	Palabra	Significado	Larousse
+CINTA DE VIDEO	Película	Casete	TV	Cine	Socio
+BARRIO	Calle	Casa	Vecindario	Gente	Ciudad
+ODOL	Dentífrico	Fluor	Pasta	Cepillo	Marca
+COLECTIVERO	Boleto	Conductor	Manejar	Transporte	Volante
+PELICULA	Cine	Pantalla	Film	Video	Actores
+CLAUSTROFOBIA	Cerrado	Miedo	Pánico	Sensación	Angustia
+POMADA	Ungüento	Piel	Untar	Crema	Medicamento
+PLANEADOR	Volar	Avión	Motor	Alas	Piloto
+CHARLY GARCIA	Músico	Rock	Cantante	Sui Generis	Seru Giran
+CLUB	Deportes	Socio	Cuota	Jugar	Vestuario
+BINGO	Lotería	Azar	Juego	Números	Tarjetas
+BROMA	Chiste	Cómico	Joda	Risa	Diversión
+TRONCO	Árbol	Leña	Madera	Rama	Raíz
+MICROONDAS	Cocinar	Horno	Descongelar	Comida	Eléctrico
+PAÑAL	Bebe	Caca	Pis	Descartable	Talco
+APLAUSO	Golpear	Palmas	Manos	Ovación	Espectáculo
+CARNAVAL	Bombitas	Mojar	Ríos de Janeiro	Corso	Comparsas
+AUSTRALIA	Canguro	Isla	Koala	País	Sydney
+PULLOVER	Lana	Invierno	Abrigo	Sueter	Tejido
+ORQUESTA	Director	Instrumentos	Músicos	Concierto	Sinfonía
+NEUMONIA	Enfermedad	Frío	Bronquios	Pulmón	Inflamación
+MOSTAZA	Savora	Condimento	Pancho	Hamburguesa	Salchicha
+LAS LEÑAS	Chapelco	Mendoza	Esquiar	Argentina	Nieve
+GRANBY	Verdes	Lavarropa	Polvo	Azules	Jabón
+PROFESION	Carrera	Trabajo	Laburo	Ocupación	Oficio
+REVISTA	Diario	Fotos	Leer	Publicación	Quiosco
+JADEAR	Gemir	Gritar	Respirar	Boca	Gozar
+PARLANTE	Bafle	Escuchar	Música	Estéreo	Altavoz
+INVISIBLE	Hombre	Ver	Mirar	Transparente	Fantasma
+SEÑAL	Marca	Huella	Ruta	Cartel	Indicio
+RAMBO	Sylvester Stallone	Rocky	Actor	Película	Vietnam
+APOSTADOR	Perder	Ganar	Lotería	Jugar	Carreras
+GUERRA	Batalla	Armas	Ejercito	Soldados	Combate
+ESTUFA	Frío	Calentar	Hogar	Invierno	Gas
+OLOR	Sentido	Nariz	Aroma	Fragancia	Perfume
+MASCARA	Carnaval	Antifaz	Cara	Disfraz	Cubrir
+MODA	Ropa	Alta costura	Onda	Temporada	Desfile
+DIBUJOS ANIMADOS	Caricatura	Niños	Película	Tom & Jerry	Televisión
+ESPALDA	Columna Vertebral	Pecho	Mochila	Cuerpo	Hombros
+DIVISION	Aritmética	Colegio	Matemática	Calculadora	Multiplicación
+RECITAL	Concierto	Instrumentos	Escenario	Grupo	Música
+DESODORANTE	Transpiración	Olor	Aerosol	Perfume	Axilas
+DESIERTO	Oasis	Arena	Sol	Sahara	Espejismo
+HELADERA	Conservar	Comida	Frío	Refrigerador	Cubitos
+ESTERIL	Embarazo	Esperma	Fértil	Hijos	Procrear
+BEISBOL	Golpe	Base	Juego	Bate	Deporte
+TAMBOR	Palillos	Batería	Percusión	Música	Instrumento
+BAZOOKA	Chicle	Globo	Quiosco	Masticas	Marca
+VELOCIMETRO	Auto	R.P.M.	Reloj	Tacómetro	Aguja
+ENFERMERA	Doctor	Consultorio	Medico	Hospital	Blanco
+BAMBI	Animal	Ciervo	Dibujo Animado	Walt Disney	Película
+DINAMARCA	Holanda	Europa	Escandinavo	País	Copenhague
+BICICLETA	2 ruedas	Velódromo	Moto	Manubrio	Pedal
+TERMOMETRO	Medir	Fiebre	Axila	Temperatura	Cuerpo
+POLLERA	Mini	Ropa	Mujer	Falda	Vestido
+HIPODROMO	Carreras	Caballos	Apuestas	Palermo	San Isidro
+PRUEBA	Tomar	Colegio	Escuela	Test	Examen
+COSTA	Agua	Playa	Orilla	Mar	Río
+EQUIPAJE	Bolsos	Bultos	Perder	Valija	Viaje
+HILO	Zurcir	Aguja	Enhebrar	Cosas	Botón
+MELON	Fruta	Verano	Rodaja	Sandia	Semillas
+PAQUETE	Correo	Envolver	Caja	Atar	Regalo
+COINCIDENCIA	Inesperado	Casualidad	Azar	Involuntario	Suerte
