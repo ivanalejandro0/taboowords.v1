@@ -21,19 +21,19 @@
 #       MA 02110-1301, USA.
 
 from TabooWords import TabooWords
-from mainWindow import Ui_MainWindow
 
 import sys
+import os
 
 try:
-    #from PyQt4 import QtCore
-    from PyQt4 import QtGui
+    from PyQt4 import QtCore, QtGui, uic
 except ImportError:
     print "PyQt4 (Qt4 bindings for Python) is required for this application."
     print "You can find it here: http://www.riverbankcomputing.co.uk"
     sys.exit()
 
 from QTemporizador import QTemporizador
+from QTabooEdit import QTabooEdit
 
 class QTabooWords(QtGui.QMainWindow, object):
     def __init__ (self, parent=None):
@@ -41,66 +41,89 @@ class QTabooWords(QtGui.QMainWindow, object):
 
         self.PalabrasTaboo = TabooWords('palabras.db')
 
-        self.UI = Ui_MainWindow()
-        self.UI.setupUi(self)
+        QtGui.QMainWindow.__init__(self)
+
+        uifile = os.path.join(
+            os.path.abspath(os.path.dirname(__file__)), 'mainWindow.ui')
+
+        uic.loadUi(uifile, self)
+
+        self.ui = self
 
         msj = "Se han cargado %s palabras." % self.PalabrasTaboo.contarPalabras()
-        self.UI.statusbar.showMessage(msj)
+        self.ui.statusbar.showMessage(msj)
 
         #self.initGUI()
+        self.tabooEdit = QTabooEdit()
 
         self._replaceTemporizador()
         self._setupConnections()
         self._setReglas()
-        self.UI.twTarjetasA.horizontalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
-        self.UI.twTarjetasB.horizontalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
+        self.ui.twTarjetasA.horizontalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
+        self.ui.twTarjetasB.horizontalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
 
         self._zoomTexto = 0
 
-
     def _replaceTemporizador(self):
-        oldTiempo = self.UI.lcdTiempo
-        self.UI.lcdTiempo = QTemporizador(self.UI.gbTiempo)
-        self.UI.gridTiempo.addWidget(self.UI.lcdTiempo, 0, 0, 1, 3)
+        oldTiempo = self.ui.lcdTiempo
+        self.ui.lcdTiempo = QTemporizador(self.ui.gbTiempo)
+        self.ui.gridTiempo.addWidget(self.ui.lcdTiempo, 0, 0, 1, 3)
         oldTiempo.setVisible(False)
-        #self.UI.gridTiempo.removeWidget(oldTiempo)
-
+        #self.ui.gridTiempo.removeWidget(oldTiempo)
 
     def _setupConnections(self):
-        self.UI.pbSiguiente.clicked.connect(self._on_pbSiguiente_clicked)
-        self.UI.pbSumarA.clicked.connect(self._sumarPuntosA)
-        self.UI.pbSumarB.clicked.connect(self._sumarPuntosB)
-        self.UI.pbIniciarTiempo.clicked.connect(self.UI.lcdTiempo.iniciar)
-        self.UI.pbPausarTiempo.clicked.connect(self.UI.lcdTiempo.pausar)
-        self.UI.pbResetearTiempo.clicked.connect(self.UI.lcdTiempo.resetear)
-        self.UI.actionInstrucciones.triggered.connect(self._showInstrucciones)
-        self.UI.vsTextSize.valueChanged.connect(self._on_vsTextSize_valueChanged)
+        self.ui.pbSiguiente.clicked.connect(self._on_pbSiguiente_clicked)
+        self.ui.pbSumarA.clicked.connect(self._sumarPuntosA)
+        self.ui.pbSumarB.clicked.connect(self._sumarPuntosB)
+        self.ui.pbGanarA.clicked.connect(self._sumarPuntosA)
+        self.ui.pbGanarB.clicked.connect(self._sumarPuntosB)
+        self.ui.pbIniciarTiempo.clicked.connect(self.ui.lcdTiempo.iniciar)
+        self.ui.pbPausarTiempo.clicked.connect(self.ui.lcdTiempo.pausar)
+        self.ui.pbResetearTiempo.clicked.connect(self.ui.lcdTiempo.resetear)
+        self.ui.actionInstrucciones.triggered.connect(self._showInstrucciones)
+        self.ui.vsTextSize.valueChanged.connect(self._on_vsTextSize_valueChanged)
+        self.ui.leNombreGrupoA.textEdited.connect(self.tlPuntajeA_2.setText)
+        self.ui.leNombreGrupoB.textEdited.connect(self.tlPuntajeB_2.setText)
 
-
+        self.connect(self.tabooEdit, QtCore.SIGNAL('tabooSaved'), self._saveAndRefresh)
 
     def _sumarPuntosA(self):
-        self.UI.lcdPuntajeA.display(self.UI.lcdPuntajeA.intValue() + 1)
-        self.UI.twTarjetasA.insertRow(0)
-        palabra = self.UI.tePalabra.toPlainText().split('\n')[0]
+        self.ui.lcdPuntajeA.display(self.ui.lcdPuntajeA.intValue() + 1)
+        self.ui.lcdPuntajeA_2.display(self.ui.lcdPuntajeA.intValue())
+        self.ui.twTarjetasA.insertRow(0)
+        palabra = self.ui.tePalabra.toPlainText().split('\n')[0]
         newItem = QtGui.QTableWidgetItem(palabra)
-        self.UI.twTarjetasA.setItem(0, 0, newItem)
-        self.UI.pbSumarA.setEnabled(False)
-        self.UI.pbSumarB.setEnabled(False)
-
-
+        self.ui.twTarjetasA.setItem(0, 0, newItem)
+        self.ui.pbSumarA.setEnabled(False)
+        self.ui.pbSumarB.setEnabled(False)
+        self.ui.pbGanarA.setEnabled(False)
+        self.ui.pbGanarB.setEnabled(False)
 
     def _sumarPuntosB(self):
-        self.UI.lcdPuntajeB.display(self.UI.lcdPuntajeB.intValue() + 1)
-        self.UI.twTarjetasB.insertRow(0)
-        palabra = self.UI.tePalabra.toPlainText().split('\n')[0]
+        self.ui.lcdPuntajeB.display(self.ui.lcdPuntajeB.intValue() + 1)
+        self.ui.lcdPuntajeB_2.display(self.ui.lcdPuntajeB.intValue())
+        self.ui.twTarjetasB.insertRow(0)
+        palabra = self.ui.tePalabra.toPlainText().split('\n')[0]
         newItem = QtGui.QTableWidgetItem(palabra)
-        self.UI.twTarjetasB.setItem(0, 0, newItem)
-        self.UI.pbSumarA.setEnabled(False)
-        self.UI.pbSumarB.setEnabled(False)
-
+        self.ui.twTarjetasB.setItem(0, 0, newItem)
+        self.ui.pbSumarA.setEnabled(False)
+        self.ui.pbSumarB.setEnabled(False)
+        self.ui.pbGanarA.setEnabled(False)
+        self.ui.pbGanarB.setEnabled(False)
 
     def _on_pbSiguiente_clicked(self):
-        taboo = self.PalabrasTaboo.jugar()
+        self.currentTaboo = taboo = self.PalabrasTaboo.jugar()
+
+        self._loadTaboo(taboo)
+
+        self.ui.pbSumarA.setEnabled(True)
+        self.ui.pbSumarB.setEnabled(True)
+        self.ui.pbGanarA.setEnabled(True)
+        self.ui.pbGanarB.setEnabled(True)
+
+        self.ui.pbEditarTarjeta.setEnabled(True)
+
+    def _loadTaboo(self, taboo):
         texto = taboo['palabra']
 
         palabra = '<u>Palabra:</u> <strong>%s</strong><br /><br />\n' % (taboo['palabra'], )
@@ -108,26 +131,28 @@ class QTabooWords(QtGui.QMainWindow, object):
 
         for t in taboo['tabues']:
             tabues = tabues + '<li>' + t + '</li>\n'
-
         tabues = tabues + '</ul></em>\n'
 
         texto = '<h3>%s%s</h3>' % (palabra, tabues)
 
-        print texto
+        self.ui.tePalabra.setHtml(texto)
 
-        self.UI.tePalabra.setHtml(texto)
-        self.UI.pbSumarA.setEnabled(True)
-        self.UI.pbSumarB.setEnabled(True)
+    def _saveAndRefresh(self, oldT, palabra):
+        self.PalabrasTaboo.updatePalabra(oldT, palabra)
+        self._loadTaboo(palabra)
 
+    @QtCore.pyqtSlot()
+    def on_pbEditarTarjeta_clicked(self):
+        self.tabooEdit.load_taboo(self.currentTaboo)
+        self.tabooEdit.show()
 
     def _on_vsTextSize_valueChanged(self, i):
         if self._zoomTexto < i:
-            self.UI.tePalabra.zoomIn()
+            self.ui.tePalabra.zoomIn()
         else:
-            self.UI.tePalabra.zoomOut()
+            self.ui.tePalabra.zoomOut()
 
         self._zoomTexto = i
-
 
     def _setReglas(self):
         self.reglas = """<big>
@@ -155,14 +180,12 @@ class QTabooWords(QtGui.QMainWindow, object):
             </big>
             """
         msj = self.tr("Para instrucciones debe ir al menu\nAyuda->Como jugar?.")
-        self.UI.tePalabra.setHtml(msj)
-
+        self.ui.tePalabra.setHtml(msj)
 
     def _showInstrucciones(self):
         msgBox = QtGui.QMessageBox()
         msgBox.setText(self.reglas)
         msgBox.exec_()
-
 
 
 def main():

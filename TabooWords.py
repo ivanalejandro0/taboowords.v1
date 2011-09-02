@@ -78,6 +78,22 @@ class TabooWords(object):
         except dbapi.IntegrityError:
             print "Integrity Error: entrada '%s' repetida..." % (palabra['palabra'], )
 
+    def _updatePalabra(self, old, palabra):
+        print "updatePalabra:"
+        print "Old: %s\nNew: %s" % (old, palabra)
+
+    def updatePalabra(self, old, palabra):
+        self._updatePalabra(old, palabra)
+        self._cursor.execute("""UPDATE palabras SET palabra=?,
+            taboo01=?, taboo02=?, taboo03=?, taboo04=?, taboo05=?
+            WHERE palabra=?""",
+            (palabra['palabra'], palabra['tabues'][0],
+            palabra['tabues'][1], palabra['tabues'][2],
+            palabra['tabues'][3], palabra['tabues'][4],
+            old['palabra'])
+            )
+
+        self._database.commit()
 
     def saveOrUpdate(self, palabra):
         try:
