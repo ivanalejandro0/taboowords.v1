@@ -80,10 +80,11 @@ class QTabooWords(QtGui.QMainWindow, object):
         self.ui.pbPausarTiempo.clicked.connect(self.ui.lcdTiempo.pausar)
         self.ui.pbResetearTiempo.clicked.connect(self.ui.lcdTiempo.resetear)
         self.ui.actionInstrucciones.triggered.connect(self._showInstrucciones)
+        self.ui.actionAcerca_de.triggered.connect(self._showAbout)
+        self.ui.action_Salir.triggered.connect(exit)
         self.ui.vsTextSize.valueChanged.connect(self._on_vsTextSize_valueChanged)
         self.ui.leNombreGrupoA.textEdited.connect(self.tlPuntajeA_2.setText)
         self.ui.leNombreGrupoB.textEdited.connect(self.tlPuntajeB_2.setText)
-
         self.connect(self.tabooEdit, QtCore.SIGNAL('tabooSaved'), self._saveAndRefresh)
 
     def _sumarPuntosA(self):
@@ -185,6 +186,16 @@ class QTabooWords(QtGui.QMainWindow, object):
         msgBox = QtGui.QMessageBox()
         msgBox.setText(self.reglas)
         msgBox.exec_()
+
+    def _showAbout(self):
+        msgBox = QtGui.QMessageBox()
+        self.about = """<center><strong>TabooWords</strong</center><br />\n
+            Versi&oacute;n inform&aacute;tica del juego de tablero en grupos en el cual se debe explicar una palabra a tus compa&ntilde;eros sin usar las palabras dadas como taboo.<br /><br />\n
+            Autor: Ivan Alejandro &lt;ivanalejandro0@yahoo.com.ar&gt;
+            """
+        msgBox.setText(self.about)
+        msgBox.exec_()
+
 
 
 def main():
