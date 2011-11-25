@@ -22,6 +22,7 @@
 from random import choice
 import sqlite3 as dbapi
 
+
 class TabooWords(object):
     def __init__(self, db=':memory:', inicializar=False):
         self._listadoPalabras = []
@@ -36,11 +37,9 @@ class TabooWords(object):
         else:
             self._loadDB()
 
-
     def __del__(self):
         self._cursor.close()
         self._database.close()
-
 
     def _initDB(self):
         self._cursor.execute("""
@@ -51,7 +50,6 @@ class TabooWords(object):
 
         self._database.commit()
 
-
     def _loadDB(self):
         self._listadoPalabras = []
         self._cursor.execute("SELECT * FROM palabras")
@@ -61,21 +59,21 @@ class TabooWords(object):
             palabra['palabra'] = tupla[0]
             palabra['tabues'] = []
             for t in range(5):
-                palabra['tabues'].append(tupla[t+1])
+                palabra['tabues'].append(tupla[t + 1])
 
             self._listadoPalabras.append(palabra)
 
-
     def guardarPalabra(self, palabra):
         try:
-            self._cursor.execute("INSERT INTO palabras VALUES (?, ?, ?, ?, ?, ?)",
+            self._cursor.execute(
+                "INSERT INTO palabras VALUES (?, ?, ?, ?, ?, ?)",
                 (palabra['palabra'], palabra['tabues'][0],
                 palabra['tabues'][1], palabra['tabues'][2],
                 palabra['tabues'][3], palabra['tabues'][4]))
 
             self._database.commit()
         except dbapi.IntegrityError:
-            print "Integrity Error: entrada '%s' repetida..." % (palabra['palabra'], )
+            print "Integrity Error: '%s' repetida..." % (palabra['palabra'], )
 
     def _updatePalabra(self, old, palabra):
         print "updatePalabra:"
@@ -96,7 +94,8 @@ class TabooWords(object):
 
     def saveOrUpdate(self, palabra):
         try:
-            self._cursor.execute("INSERT INTO palabras VALUES (?, ?, ?, ?, ?, ?)",
+            self._cursor.execute(
+                "INSERT INTO palabras VALUES (?, ?, ?, ?, ?, ?)",
                 (palabra['palabra'], palabra['tabues'][0],
                 palabra['tabues'][1], palabra['tabues'][2],
                 palabra['tabues'][3], palabra['tabues'][4]))
@@ -113,29 +112,23 @@ class TabooWords(object):
 
         self._database.commit()
 
-
     def guardarListado(self):
         for p in self._listadoPalabras:
             #self.guardarPalabra(p)
             self.saveOrUpdate(p)
 
-
     def agregarPalabra(self, p):
         self._listadoPalabras.append(p)
-
 
     def mostrarListado(self):
         for p in self._listadoPalabras:
             print p
 
-
     def borrarListado(self):
         self._listadoPalabras = []
 
-
     def contarPalabras(self):
         return len(self._listadoPalabras)
-
 
     def jugar(self, mostrar=False):
         tarjeta = choice(self._listadoPalabras)
@@ -162,4 +155,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

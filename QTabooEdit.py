@@ -19,7 +19,8 @@
 # along with TabooWords.  If not, see <http://www.gnu.org/licenses/>.
 
 
-import sys, os
+import sys
+import os
 
 try:
     from PyQt4 import QtCore, QtGui, uic
@@ -63,9 +64,3 @@ class QTabooEdit(QtGui.QWidget):
 
     def on_pbCancelar_clicked(self):
         self.hide()
-
-
-
-if __name__ == '__main__':
-	pass
-

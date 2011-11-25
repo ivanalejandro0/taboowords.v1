@@ -34,8 +34,9 @@ except ImportError:
 from QTemporizador import QTemporizador
 from QTabooEdit import QTabooEdit
 
+
 class QTabooWords(QtGui.QMainWindow, object):
-    def __init__ (self, parent=None):
+    def __init__(self, parent=None):
         QtGui.QMainWindow.__init__(self, parent)
 
         self.PalabrasTaboo = TabooWords('palabras.db')
@@ -49,7 +50,7 @@ class QTabooWords(QtGui.QMainWindow, object):
 
         self.ui = self
 
-        msj = "Se han cargado %s palabras." % self.PalabrasTaboo.contarPalabras()
+        msj = "Se cargaron %s palabras." % self.PalabrasTaboo.contarPalabras()
         self.ui.statusbar.showMessage(msj)
 
         #self.initGUI()
@@ -182,12 +183,13 @@ class QTabooWords(QtGui.QMainWindow, object):
     def _showAbout(self):
         msgBox = QtGui.QMessageBox()
         self.about = """<center><strong>TabooWords</strong</center><br />\n
-            Versi&oacute;n inform&aacute;tica del juego de tablero en grupos en el cual se debe explicar una palabra a tus compa&ntilde;eros sin usar las palabras dadas como taboo.<br /><br />\n
+            Versi&oacute;n inform&aacute;tica del juego de tablero en grupos
+            en el cual se debe explicar una palabra a tus compa&ntilde;eros
+            sin usar las palabras dadas como taboo.<br /><br />\n
             Autor: Ivan Alejandro &lt;ivanalejandro0@yahoo.com.ar&gt;
             """
         msgBox.setText(self.about)
         msgBox.exec_()
-
 
 
 def main():
