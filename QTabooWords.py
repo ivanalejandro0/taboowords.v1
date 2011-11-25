@@ -63,32 +63,25 @@ class QTabooWords(QtGui.QMainWindow, object):
 
         self._zoomTexto = 0
 
-    def _replaceTemporizador(self):
-        ''' mothod replaced by "promote to..." from designer '''
-        pass
-        #oldTiempo = self.ui.lcdTiempo
-        #self.ui.lcdTiempo = QTemporizador(self.ui.gbTiempo)
-        #self.ui.gridTiempo.addWidget(self.ui.lcdTiempo, 0, 0, 1, 3)
-        #oldTiempo.setVisible(False)
-        #self.ui.gridTiempo.removeWidget(oldTiempo)
-
     def _setupConnections(self):
         self.ui.pbSiguiente.clicked.connect(self._on_pbSiguiente_clicked)
         self.ui.pbSumarA.clicked.connect(self._sumarPuntosA)
         self.ui.pbSumarB.clicked.connect(self._sumarPuntosB)
         self.ui.pbGanarA.clicked.connect(self._sumarPuntosA)
         self.ui.pbGanarB.clicked.connect(self._sumarPuntosB)
+
         self.ui.pbIniciarTiempo.clicked.connect(self.ui.lcdTiempo.iniciar)
         self.ui.pbPausarTiempo.clicked.connect(self.ui.lcdTiempo.pausar)
         self.ui.pbResetearTiempo.clicked.connect(self.ui.lcdTiempo.resetear)
+        self.ui.leTiempoTotal.textEdited.connect(self.ui.lcdTiempo.setTiempoTotal)
+        self.ui.leTiempoAlerta.textEdited.connect(self.ui.lcdTiempo.setTiempoAlerta)
+
         self.ui.actionInstrucciones.triggered.connect(self._showInstrucciones)
         self.ui.actionAcerca_de.triggered.connect(self._showAbout)
         self.ui.action_Salir.triggered.connect(exit)
         self.ui.vsTextSize.valueChanged.connect(self._on_vsTextSize_valueChanged)
         self.ui.leNombreGrupoA.textEdited.connect(self.tlPuntajeA_2.setText)
         self.ui.leNombreGrupoB.textEdited.connect(self.tlPuntajeB_2.setText)
-        self.ui.leTiempoTotal.textEdited.connect(self.ui.lcdTiempo.setTiempoTotal)
-        self.ui.leTiempoAlerta.textEdited.connect(self.ui.lcdTiempo.setTiempoAlerta)
         self.connect(self.tabooEdit, QtCore.SIGNAL('tabooSaved'), self._saveAndRefresh)
 
     def _sumarPuntosA(self):
