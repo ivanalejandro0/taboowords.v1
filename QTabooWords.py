@@ -56,7 +56,6 @@ class QTabooWords(QtGui.QMainWindow, object):
         #self.initGUI()
         self.tabooEdit = QTabooEdit()
 
-        self._replaceTemporizador()
         self._setupConnections()
         self._setReglas()
         self.ui.twTarjetasA.horizontalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
@@ -65,10 +64,12 @@ class QTabooWords(QtGui.QMainWindow, object):
         self._zoomTexto = 0
 
     def _replaceTemporizador(self):
-        oldTiempo = self.ui.lcdTiempo
-        self.ui.lcdTiempo = QTemporizador(self.ui.gbTiempo)
-        self.ui.gridTiempo.addWidget(self.ui.lcdTiempo, 0, 0, 1, 3)
-        oldTiempo.setVisible(False)
+        ''' mothod replaced by "promote to..." from designer '''
+        pass
+        #oldTiempo = self.ui.lcdTiempo
+        #self.ui.lcdTiempo = QTemporizador(self.ui.gbTiempo)
+        #self.ui.gridTiempo.addWidget(self.ui.lcdTiempo, 0, 0, 1, 3)
+        #oldTiempo.setVisible(False)
         #self.ui.gridTiempo.removeWidget(oldTiempo)
 
     def _setupConnections(self):
@@ -86,6 +87,8 @@ class QTabooWords(QtGui.QMainWindow, object):
         self.ui.vsTextSize.valueChanged.connect(self._on_vsTextSize_valueChanged)
         self.ui.leNombreGrupoA.textEdited.connect(self.tlPuntajeA_2.setText)
         self.ui.leNombreGrupoB.textEdited.connect(self.tlPuntajeB_2.setText)
+        self.ui.leTiempoTotal.textEdited.connect(self.ui.lcdTiempo.setTiempoTotal)
+        self.ui.leTiempoAlerta.textEdited.connect(self.ui.lcdTiempo.setTiempoAlerta)
         self.connect(self.tabooEdit, QtCore.SIGNAL('tabooSaved'), self._saveAndRefresh)
 
     def _sumarPuntosA(self):
@@ -123,6 +126,7 @@ class QTabooWords(QtGui.QMainWindow, object):
         self.ui.pbGanarB.setEnabled(True)
 
         self.ui.pbEditarTarjeta.setEnabled(True)
+        self.ui.pbBorrarTarjeta.setEnabled(True)
 
     def _loadTaboo(self, taboo):
         texto = taboo['palabra']
@@ -146,6 +150,21 @@ class QTabooWords(QtGui.QMainWindow, object):
     def on_pbEditarTarjeta_clicked(self):
         self.tabooEdit.load_taboo(self.currentTaboo)
         self.tabooEdit.show()
+
+    def askYesNo(self, title='', question=''):
+        ret = False
+        res = QtGui.QMessageBox.question(None, title, question,
+            QtGui.QMessageBox.Yes | QtGui.QMessageBox.No,
+            QtGui.QMessageBox.No)  # default No
+        if res == QtGui.QMessageBox.Yes:
+            ret = True
+        return ret
+
+    @QtCore.pyqtSlot()
+    def on_pbBorrarTarjeta_clicked(self):
+        borrar = self.askYesNo('Borrar Palabra', 'Esta seguro de borrarla?')
+        if borrar:
+            self.PalabrasTaboo.borrarPalabra()
 
     def _on_vsTextSize_valueChanged(self, i):
         if self._zoomTexto < i:

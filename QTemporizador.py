@@ -39,7 +39,12 @@ class QTemporizador(QtGui.QLCDNumber):
         self.setSegmentStyle(QtGui.QLCDNumber.Filled)
 
         self._tiempo = QtCore.QTimer()
-        self.display(60)
+        self._tiempoNegro()
+
+        self.totalTime = 60
+        self.alertTime = 10
+
+        self.display(self.totalTime)
         self._tiempo.timeout.connect(self._decrementar)
 
     def iniciar(self):
@@ -50,17 +55,25 @@ class QTemporizador(QtGui.QLCDNumber):
 
     def resetear(self):
         self._tiempoNegro()
-        self.display(60)
+        self.display(self.totalTime)
         self._tiempo.stop()
 
     def _decrementar(self):
         anterior = self.intValue()
         if anterior > 0:
             self.display(anterior - 1)
-            if anterior == 11:
+            if anterior == self.alertTime + 1:
                 self._tiempoRojo()
         else:
             self._tiempo.stop()
+
+    def setTiempoTotal(self, tiempo):
+        self.totalTime = int(tiempo)
+        self.resetear()
+
+    def setTiempoAlerta(self, tiempo):
+        self.alertTime = int(tiempo)
+        self.resetear()
 
     def _tiempoRojo(self):
         self.setSegmentStyle(QtGui.QLCDNumber.Filled)
